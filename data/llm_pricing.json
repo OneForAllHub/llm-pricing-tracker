@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-23T06:23:00Z",
-  "total_tracked": 4733,
+  "updated_at": "2026-11-23T12:54:10Z",
+  "total_tracked": 4780,
   "models": [
     {
       "id": "google/lyria-3-clip-preview",
@@ -603,6 +603,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
       "provider": "mistralai",
@@ -959,16 +969,6 @@
       "input_per_1m_usd": 0.2,
       "output_per_1m_usd": 1.25,
       "context_length": 400000,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.3,
-      "output_per_1m_usd": 1.2,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -4607,7 +4607,7 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "provider": "z-ai",
       "input_per_1m_usd": 0.0399,
-      "output_per_1m_usd": 0.0784,
+      "output_per_1m_usd": 0.074,
       "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
@@ -4617,7 +4617,7 @@
       "name": "Z.ai: GLM Flash Latest",
       "provider": "~z-ai",
       "input_per_1m_usd": 0.0399,
-      "output_per_1m_usd": 0.0784,
+      "output_per_1m_usd": 0.074,
       "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
@@ -6538,7 +6538,7 @@
       "provider": "inclusionai",
       "input_per_1m_usd": 0.06,
       "output_per_1m_usd": 0.18,
-      "context_length": 1000000,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -11923,6 +11923,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5-nano",
+      "name": "perplexity_orchestrator/openai/gpt-5-nano",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.05,
+      "output_per_1m_usd": 0.4,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "sail/Qwen/Qwen3.6-35B-A3B",
       "name": "sail/Qwen/Qwen3.6-35B-A3B",
       "provider": "sail",
@@ -13843,6 +13853,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-haiku-5-5",
+      "name": "perplexity_orchestrator/anthropic/claude-haiku-5-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.1,
+      "output_per_1m_usd": 0.5,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-haiku-5-5",
       "name": "vertex_ai/claude-haiku-5-5",
       "provider": "vertex_ai-anthropic_models",
@@ -13926,6 +13946,16 @@
       "id": "openai.gpt-6-luna",
       "name": "openai.gpt-6-luna",
       "provider": "bedrock_converse",
+      "input_per_1m_usd": 0.1,
+      "output_per_1m_usd": 0.5,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6-luna",
+      "name": "perplexity_orchestrator/openai/gpt-6-luna",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 0.1,
       "output_per_1m_usd": 0.5,
       "context_length": 922000,
@@ -14766,6 +14796,16 @@
       "id": "opencode_go/glm-5.3-flash",
       "name": "opencode_go/glm-5.3-flash",
       "provider": "opencode_go",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.5,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/perplexity/glm-5.3-flash",
+      "name": "perplexity_orchestrator/perplexity/glm-5.3-flash",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 0.15,
       "output_per_1m_usd": 0.5,
       "context_length": 1000000,
@@ -20733,6 +20773,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.6-luna",
+      "name": "perplexity_orchestrator/openai/gpt-5.6-luna",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.2,
+      "output_per_1m_usd": 1.2,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "zerogpu/gpt-5.6-luna",
       "name": "zerogpu/gpt-5.6-luna",
       "provider": "zerogpu",
@@ -21176,6 +21226,16 @@
       "id": "gpt-5.4-nano-2026-03-17",
       "name": "gpt-5.4-nano-2026-03-17",
       "provider": "openai",
+      "input_per_1m_usd": 0.2,
+      "output_per_1m_usd": 1.25,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-5.4-nano",
+      "name": "perplexity_orchestrator/openai/gpt-5.4-nano",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 0.2,
       "output_per_1m_usd": 1.25,
       "context_length": 272000,
@@ -26073,6 +26133,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5-mini",
+      "name": "perplexity_orchestrator/openai/gpt-5-mini",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.25,
+      "output_per_1m_usd": 2.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct",
       "name": "bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct",
       "provider": "bedrock_mantle",
@@ -27898,6 +27968,16 @@
       "provider": "mistral",
       "input_per_1m_usd": 0.7,
       "output_per_1m_usd": 2.1,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/google/gemini-3.5-flash-lite",
+      "name": "perplexity_orchestrator/google/gemini-3.5-flash-lite",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.3,
+      "output_per_1m_usd": 2.5,
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
@@ -32963,6 +33043,26 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/google/gemini-3.7-flash",
+      "name": "perplexity_orchestrator/google/gemini-3.7-flash",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.75,
+      "output_per_1m_usd": 3.75,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/google/gemini-3.8-flash",
+      "name": "perplexity_orchestrator/google/gemini-3.8-flash",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.75,
+      "output_per_1m_usd": 3.75,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/gemini-3.6-flash",
       "name": "vertex_ai/gemini-3.6-flash",
       "provider": "vertex_ai",
@@ -34126,7 +34226,7 @@
       "id": "~deepseek/deepseek-pro-latest",
       "name": "DeepSeek: DeepSeek Pro Latest",
       "provider": "~deepseek",
-      "input_per_1m_usd": 0.1188,
+      "input_per_1m_usd": 0.0999,
       "output_per_1m_usd": 5.0,
       "context_length": 1048576,
       "tier": "paid",
@@ -34433,6 +34533,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.4-mini",
+      "name": "perplexity_orchestrator/openai/gpt-5.4-mini",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 0.75,
+      "output_per_1m_usd": 4.5,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "wandb/deepseek-ai/DeepSeek-V4-Pro-0813",
       "name": "wandb/deepseek-ai/DeepSeek-V4-Pro-0813",
       "provider": "wandb",
@@ -34496,6 +34606,16 @@
       "id": "novita/deepseek/deepseek-v4-pro-0813",
       "name": "novita/deepseek/deepseek-v4-pro-0813",
       "provider": "novita",
+      "input_per_1m_usd": 1.32,
+      "output_per_1m_usd": 3.96,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/perplexity/deepseek-v4-pro-0813",
+      "name": "perplexity_orchestrator/perplexity/deepseek-v4-pro-0813",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 1.32,
       "output_per_1m_usd": 3.96,
       "context_length": 1048576,
@@ -35433,6 +35553,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/perplexity/glm-5.3",
+      "name": "perplexity_orchestrator/perplexity/glm-5.3",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.4,
+      "output_per_1m_usd": 4.4,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "tencent/glm-5.2",
       "name": "tencent/glm-5.2",
       "provider": "tencent",
@@ -35723,6 +35853,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-6.1-terra",
+      "name": "perplexity_orchestrator/openai/gpt-6.1-terra",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.0,
+      "output_per_1m_usd": 5.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "name": "crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507",
       "provider": "crusoe",
@@ -35806,6 +35946,16 @@
       "id": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
       "name": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
       "provider": "bedrock_converse",
+      "input_per_1m_usd": 1.0,
+      "output_per_1m_usd": 5.0,
+      "context_length": 200000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-haiku-4-5",
+      "name": "perplexity_orchestrator/anthropic/claude-haiku-4-5",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 1.0,
       "output_per_1m_usd": 5.0,
       "context_length": 200000,
@@ -37243,6 +37393,36 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/xai/grok-4.5",
+      "name": "perplexity_orchestrator/xai/grok-4.5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 6.0,
+      "context_length": 500000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/xai/grok-4.6",
+      "name": "perplexity_orchestrator/xai/grok-4.6",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 6.0,
+      "context_length": 500000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/xai/grok-4.7",
+      "name": "perplexity_orchestrator/xai/grok-4.7",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 6.0,
+      "context_length": 500000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "xai/grok-4.5",
       "name": "xai/grok-4.5",
       "provider": "xai",
@@ -37816,6 +37996,16 @@
       "id": "openrouter/google/gemini-4-hydrogen",
       "name": "openrouter/google/gemini-4-hydrogen",
       "provider": "openrouter",
+      "input_per_1m_usd": 1.5,
+      "output_per_1m_usd": 7.5,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/google/gemini-3.6-flash",
+      "name": "perplexity_orchestrator/google/gemini-3.6-flash",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 1.5,
       "output_per_1m_usd": 7.5,
       "context_length": 1048576,
@@ -38593,6 +38783,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/google/gemini-3.5-flash",
+      "name": "perplexity_orchestrator/google/gemini-3.5-flash",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.5,
+      "output_per_1m_usd": 9.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "gemini-omni-flash-preview",
       "name": "gemini-omni-flash-preview",
       "provider": "vertex_ai-language-models",
@@ -39123,6 +39323,26 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5",
+      "name": "perplexity_orchestrator/openai/gpt-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.25,
+      "output_per_1m_usd": 10.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-5.1",
+      "name": "perplexity_orchestrator/openai/gpt-5.1",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.25,
+      "output_per_1m_usd": 10.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "azure/gpt-5-chat",
       "name": "azure/gpt-5-chat",
       "provider": "azure",
@@ -39613,6 +39833,26 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-sonnet-5",
+      "name": "perplexity_orchestrator/anthropic/claude-sonnet-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 10.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-sonnet-5-5",
+      "name": "perplexity_orchestrator/anthropic/claude-sonnet-5-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 10.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-sonnet-5",
       "name": "vertex_ai/claude-sonnet-5",
       "provider": "vertex_ai-anthropic_models",
@@ -39799,6 +40039,36 @@
       "input_per_1m_usd": 2.0,
       "output_per_1m_usd": 10.0,
       "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6-sol",
+      "name": "perplexity_orchestrator/openai/gpt-6-sol",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 10.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6.1-sol",
+      "name": "perplexity_orchestrator/openai/gpt-6.1-sol",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 10.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6.2-sol",
+      "name": "perplexity_orchestrator/openai/gpt-6.2-sol",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 10.0,
+      "context_length": 872000,
       "tier": "paid",
       "source": "LiteLLM"
     },
@@ -41023,6 +41293,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.6-terra",
+      "name": "perplexity_orchestrator/openai/gpt-5.6-terra",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 12.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "deep-research-pro-preview-12-2025",
       "name": "deep-research-pro-preview-12-2025",
       "provider": "vertex_ai-language-models",
@@ -41473,6 +41753,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.2",
+      "name": "perplexity_orchestrator/openai/gpt-5.2",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 1.75,
+      "output_per_1m_usd": 14.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "gpt-5.2-chat-latest",
       "name": "gpt-5.2-chat-latest",
       "provider": "openai",
@@ -41913,6 +42203,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.4",
+      "name": "perplexity_orchestrator/openai/gpt-5.4",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 2.5,
+      "output_per_1m_usd": 15.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "databricks/databricks-gemini-3-pro-image",
       "name": "databricks/databricks-gemini-3-pro-image",
       "provider": "databricks",
@@ -42083,6 +42383,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/perplexity/kimi-k3",
+      "name": "perplexity_orchestrator/perplexity/kimi-k3",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 3.0,
+      "output_per_1m_usd": 15.0,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "together_ai/moonshotai/Kimi-K3",
       "name": "together_ai/moonshotai/Kimi-K3",
       "provider": "together_ai",
@@ -42186,6 +42496,16 @@
       "id": "global.moonshotai.kimi-k3",
       "name": "global.moonshotai.kimi-k3",
       "provider": "bedrock_converse",
+      "input_per_1m_usd": 3.0,
+      "output_per_1m_usd": 15.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-sonnet-4-6",
+      "name": "perplexity_orchestrator/anthropic/claude-sonnet-4-6",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 3.0,
       "output_per_1m_usd": 15.0,
       "context_length": 1000000,
@@ -42521,6 +42841,16 @@
       "context_length": 200000,
       "tier": "paid",
       "source": "OpenRouter"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-sonnet-4-5",
+      "name": "perplexity_orchestrator/anthropic/claude-sonnet-4-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 3.0,
+      "output_per_1m_usd": 15.0,
+      "context_length": 200000,
+      "tier": "paid",
+      "source": "LiteLLM"
     },
     {
       "id": "snowflake/claude-3-5-sonnet",
@@ -43643,6 +43973,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-5-5",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-5-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 4.0,
+      "output_per_1m_usd": 20.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-opus-5-5",
       "name": "vertex_ai/claude-opus-5-5",
       "provider": "vertex_ai-anthropic_models",
@@ -43766,6 +44106,16 @@
       "id": "gpt-5.6-sol",
       "name": "gpt-5.6-sol",
       "provider": "openai",
+      "input_per_1m_usd": 4.0,
+      "output_per_1m_usd": 20.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-5.6-sol",
+      "name": "perplexity_orchestrator/openai/gpt-5.6-sol",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 4.0,
       "output_per_1m_usd": 20.0,
       "context_length": 922000,
@@ -44403,6 +44753,46 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-4-6",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-4-6",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 25.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-4-7",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-4-7",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 25.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-4-8",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-4-8",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 25.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-5",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 25.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-opus-4-6",
       "name": "vertex_ai/claude-opus-4-6",
       "provider": "vertex_ai-anthropic_models",
@@ -44566,6 +44956,16 @@
       "id": "global.anthropic.claude-opus-4-5-20251101-v1:0",
       "name": "global.anthropic.claude-opus-4-5-20251101-v1:0",
       "provider": "bedrock_converse",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 25.0,
+      "context_length": 200000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-opus-4-5",
+      "name": "perplexity_orchestrator/anthropic/claude-opus-4-5",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 5.0,
       "output_per_1m_usd": 25.0,
       "context_length": 200000,
@@ -44809,6 +45209,16 @@
       "input_per_1m_usd": 5.00003,
       "output_per_1m_usd": 25.00001,
       "context_length": 200000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-5.3-codex",
+      "name": "perplexity_orchestrator/openai/gpt-5.3-codex",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 3.5,
+      "output_per_1m_usd": 28.0,
+      "context_length": 272000,
       "tier": "paid",
       "source": "LiteLLM"
     },
@@ -45453,6 +45863,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/openai/gpt-5.5",
+      "name": "perplexity_orchestrator/openai/gpt-5.5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 5.0,
+      "output_per_1m_usd": 30.0,
+      "context_length": 272000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "azure/gpt-chat-latest",
       "name": "azure/gpt-chat-latest",
       "provider": "azure",
@@ -45923,6 +46343,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-fable-5-2",
+      "name": "perplexity_orchestrator/anthropic/claude-fable-5-2",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 8.0,
+      "output_per_1m_usd": 40.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-fable-5-2",
       "name": "vertex_ai/claude-fable-5-2",
       "provider": "vertex_ai-anthropic_models",
@@ -46019,6 +46449,16 @@
       "input_per_1m_usd": 8.0,
       "output_per_1m_usd": 40.0,
       "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6.2-astra",
+      "name": "perplexity_orchestrator/openai/gpt-6.2-astra",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 8.0,
+      "output_per_1m_usd": 40.0,
+      "context_length": 872000,
       "tier": "paid",
       "source": "LiteLLM"
     },
@@ -46433,6 +46873,26 @@
       "source": "LiteLLM"
     },
     {
+      "id": "perplexity_orchestrator/anthropic/claude-fable-5",
+      "name": "perplexity_orchestrator/anthropic/claude-fable-5",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 10.0,
+      "output_per_1m_usd": 50.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/anthropic/claude-fable-5-1",
+      "name": "perplexity_orchestrator/anthropic/claude-fable-5-1",
+      "provider": "perplexity_orchestrator",
+      "input_per_1m_usd": 10.0,
+      "output_per_1m_usd": 50.0,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "vertex_ai/claude-fable-5",
       "name": "vertex_ai/claude-fable-5",
       "provider": "vertex_ai-anthropic_models",
@@ -46536,6 +46996,16 @@
       "id": "gpt-6-rosalind",
       "name": "gpt-6-rosalind",
       "provider": "openai",
+      "input_per_1m_usd": 10.0,
+      "output_per_1m_usd": 50.0,
+      "context_length": 922000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "perplexity_orchestrator/openai/gpt-6-astra",
+      "name": "perplexity_orchestrator/openai/gpt-6-astra",
+      "provider": "perplexity_orchestrator",
       "input_per_1m_usd": 10.0,
       "output_per_1m_usd": 50.0,
       "context_length": 922000,

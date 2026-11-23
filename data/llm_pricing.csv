@@ -59,6 +59,7 @@ openai/gpt-5.6-luna-pro:batch,OpenAI: GPT-5.6 Luna Pro (batch),openai,0.1,0.6,10
 openai/gpt-5.6-luna:batch,OpenAI: GPT-5.6 Luna (batch),openai,0.1,0.6,1050000,paid,OpenRouter
 deepseek/deepseek-reasoner,deepseek/deepseek-reasoner,deepseek,0.28,0.42,131072,paid,LiteLLM
 openai/gpt-5.4-nano:batch,OpenAI: GPT-5.4 Nano (batch),openai,0.1,0.625,400000,paid,OpenRouter
+deepseek/deepseek-v4.1-flash-1017,DeepSeek: DeepSeek V4.1 Flash 1017,deepseek,0.15,0.6,1048576,paid,OpenRouter
 mistralai/mistral-small-2603,Mistral: Mistral Small 4,mistralai,0.15,0.6,262144,paid,OpenRouter
 qwen/qwen3-vl-30b-a3b-instruct,Qwen: Qwen3 VL 30B A3B Instruct,qwen,0.15,0.6,262144,paid,OpenRouter
 qwen/qwen3.6-35b-a3b,Qwen: Qwen3.6 35B A3B,qwen,0.05,0.7,262144,paid,OpenRouter
@@ -95,7 +96,6 @@ google/gemini-3.5-flash-lite:batch,Google: Gemini 3.5 Flash Lite (batch),google,
 meta-llama/llama-3.3-70b-instruct,Meta: Llama 3.3 70B Instruct,meta-llama,0.71,0.71,131072,paid,OpenRouter
 meta-llama/llama-3.1-70b-instruct,Meta: Llama 3.1 70B Instruct,meta-llama,0.72,0.72,131072,paid,OpenRouter
 openai/gpt-5.4-nano,OpenAI: GPT-5.4 Nano,openai,0.2,1.25,400000,paid,OpenRouter
-deepseek/deepseek-v4.1-flash-1017,DeepSeek: DeepSeek V4.1 Flash 1017,deepseek,0.3,1.2,1048576,paid,OpenRouter
 deepseek/deepseek-flash,deepseek/deepseek-flash,deepseek,0.3,1.2,1000000,paid,LiteLLM
 qwen/qwen3.8-27b,Qwen: Qwen3.8 27B,qwen,0.035,1.5,1024000,paid,OpenRouter
 qwen/qwen3.7-plus,Qwen: Qwen3.7 Plus,qwen,0.32,1.28,1000000,paid,OpenRouter
@@ -459,8 +459,8 @@ vercel_ai_gateway/mistral/mistral-embed,vercel_ai_gateway/mistral/mistral-embed,
 deepinfra/meta-llama/Llama-Guard-3-8B,deepinfra/meta-llama/Llama-Guard-3-8B,deepinfra,0.055,0.055,131072,paid,LiteLLM
 llamagate/gemma3-4b,llamagate/gemma3-4b,llamagate,0.03,0.08,128000,paid,LiteLLM
 empiriolabs/qwen3-5-4b,empiriolabs/qwen3-5-4b,empiriolabs,0.04,0.07,262144,paid,LiteLLM
-z-ai/glm-5.3-flash,Z.ai: GLM 5.3 Flash,z-ai,0.0399,0.0784,1048576,paid,OpenRouter
-~z-ai/glm-flash-latest,Z.ai: GLM Flash Latest,~z-ai,0.0399,0.0784,1048576,paid,OpenRouter
+z-ai/glm-5.3-flash,Z.ai: GLM 5.3 Flash,z-ai,0.0399,0.074,1048576,paid,OpenRouter
+~z-ai/glm-flash-latest,Z.ai: GLM Flash Latest,~z-ai,0.0399,0.074,1048576,paid,OpenRouter
 llamagate/llama-3.2-3b,llamagate/llama-3.2-3b,llamagate,0.04,0.08,131072,paid,LiteLLM
 together_ai/meta-llama/Llama-3.2-1B-Instruct,together_ai/meta-llama/Llama-3.2-1B-Instruct,together_ai,0.06,0.06,131072,paid,LiteLLM
 together_ai/meta-llama/Llama-3.2-3B-Instruct,together_ai/meta-llama/Llama-3.2-3B-Instruct,together_ai,0.06,0.06,131072,paid,LiteLLM
@@ -652,7 +652,7 @@ kyma/qwen3.7-flash,kyma/qwen3.7-flash,kyma,0.0435,0.1886,1000000,paid,LiteLLM
 bedrock/ap-southeast-1/amazon.nova-micro-v1:0,bedrock/ap-southeast-1/amazon.nova-micro-v1:0,bedrock_converse,0.047,0.188,128000,paid,LiteLLM
 aihubmix/coding-xiaomi-mimo-v2.5,aihubmix/coding-xiaomi-mimo-v2.5,aihubmix,0.08,0.16,1048576,paid,LiteLLM
 deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731,deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731,deepinfra,0.06,0.18,1048576,paid,LiteLLM
-inclusionai/ling-3.1-flash,inclusionAI: Ling 3.1 Flash,inclusionai,0.06,0.18,1000000,paid,OpenRouter
+inclusionai/ling-3.1-flash,inclusionAI: Ling 3.1 Flash,inclusionai,0.06,0.18,1048576,paid,OpenRouter
 novita/inclusionai/ling-3.0-flash,novita/inclusionai/ling-3.0-flash,novita,0.06,0.18,262144,paid,LiteLLM
 novita/inclusionai/ling-3.0-flash-fast,novita/inclusionai/ling-3.0-flash-fast,novita,0.06,0.18,262144,paid,LiteLLM
 deepinfra/google/gemma-3-27b-it,deepinfra/google/gemma-3-27b-it,deepinfra,0.08,0.16,131072,paid,LiteLLM
@@ -1191,6 +1191,7 @@ azure/gpt-5-nano-2025-08-07,azure/gpt-5-nano-2025-08-07,azure,0.05,0.4,272000,pa
 gpt-5-nano,gpt-5-nano,openai,0.05,0.4,272000,paid,LiteLLM
 gpt-5-nano-2025-08-07,gpt-5-nano-2025-08-07,openai,0.05,0.4,272000,paid,LiteLLM
 oci/openai.gpt-5-nano,oci/openai.gpt-5-nano,oci,0.05,0.4,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5-nano,perplexity_orchestrator/openai/gpt-5-nano,perplexity_orchestrator,0.05,0.4,272000,paid,LiteLLM
 sail/Qwen/Qwen3.6-35B-A3B,sail/Qwen/Qwen3.6-35B-A3B,sail,0.05,0.4,262144,paid,LiteLLM
 bedrock/ap-south-1/google.gemma-3-12b-it,bedrock/ap-south-1/google.gemma-3-12b-it,bedrock_converse,0.11,0.34,128000,paid,LiteLLM
 bedrock/eu-south-1/google.gemma-3-12b-it,bedrock/eu-south-1/google.gemma-3-12b-it,bedrock_converse,0.11,0.34,128000,paid,LiteLLM
@@ -1383,6 +1384,7 @@ bedrock/claude_platform/claude-haiku-5-5,bedrock/claude_platform/claude-haiku-5-
 claude-haiku-5-5,claude-haiku-5-5,anthropic,0.1,0.5,1000000,paid,LiteLLM
 global.anthropic.claude-haiku-5-5,global.anthropic.claude-haiku-5-5,bedrock_converse,0.1,0.5,1000000,paid,LiteLLM
 opencode_go/claude-haiku-5-5,opencode_go/claude-haiku-5-5,opencode_go,0.1,0.5,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-haiku-5-5,perplexity_orchestrator/anthropic/claude-haiku-5-5,perplexity_orchestrator,0.1,0.5,1000000,paid,LiteLLM
 vertex_ai/claude-haiku-5-5,vertex_ai/claude-haiku-5-5,vertex_ai-anthropic_models,0.1,0.5,1000000,paid,LiteLLM
 vertex_ai/claude-haiku-5-5@default,vertex_ai/claude-haiku-5-5@default,vertex_ai-anthropic_models,0.1,0.5,1000000,paid,LiteLLM
 ~anthropic/claude-haiku-latest,Anthropic: Claude Haiku Latest,~anthropic,0.1,0.5,1000000,paid,OpenRouter
@@ -1392,6 +1394,7 @@ azure_ai/gpt-6-luna,azure_ai/gpt-6-luna,azure_ai,0.1,0.5,922000,paid,LiteLLM
 global.openai.gpt-6-luna,global.openai.gpt-6-luna,bedrock_converse,0.1,0.5,922000,paid,LiteLLM
 gpt-6-luna,gpt-6-luna,openai,0.1,0.5,922000,paid,LiteLLM
 openai.gpt-6-luna,openai.gpt-6-luna,bedrock_converse,0.1,0.5,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6-luna,perplexity_orchestrator/openai/gpt-6-luna,perplexity_orchestrator,0.1,0.5,922000,paid,LiteLLM
 zerogpu/gpt-6-luna,zerogpu/gpt-6-luna,zerogpu,0.1,0.5,272000,paid,LiteLLM
 baseten/openai/gpt-oss-120b,baseten/openai/gpt-oss-120b,baseten,0.1,0.5,128072,paid,LiteLLM
 github_copilot/claude-haiku-5.5,github_copilot/claude-haiku-5.5,github_copilot,0.1,0.5,128000,paid,LiteLLM
@@ -1476,6 +1479,7 @@ aiand/zai-org/glm-5.3-flash,aiand/zai-org/glm-5.3-flash,aiand,0.15,0.5,1048550,p
 inferenceapis/Qwen/Qwen3.8-Flash,inferenceapis/Qwen/Qwen3.8-Flash,inferenceapis,0.15,0.5,1000000,paid,LiteLLM
 inferenceapis/qwen3.8-flash,inferenceapis/qwen3.8-flash,inferenceapis,0.15,0.5,1000000,paid,LiteLLM
 opencode_go/glm-5.3-flash,opencode_go/glm-5.3-flash,opencode_go,0.15,0.5,1000000,paid,LiteLLM
+perplexity_orchestrator/perplexity/glm-5.3-flash,perplexity_orchestrator/perplexity/glm-5.3-flash,perplexity_orchestrator,0.15,0.5,1000000,paid,LiteLLM
 tencent/glm-5.3-flash,tencent/glm-5.3-flash,tencent,0.15,0.5,1000000,paid,LiteLLM
 deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL,deepinfra/nvidia/NVIDIA-Nemotron-3.5-Super-VL,deepinfra,0.15,0.5,262144,paid,LiteLLM
 libertai/qwen3.6-27b,libertai/qwen3.6-27b,libertai,0.15,0.5,262144,paid,LiteLLM
@@ -2072,6 +2076,7 @@ azure_ai/gpt-5.6-luna-2026-07-09,azure_ai/gpt-5.6-luna-2026-07-09,azure_ai,0.2,1
 databricks/databricks-gpt-5-6-luna,databricks/databricks-gpt-5-6-luna,databricks,0.19999,1.20001,922000,paid,LiteLLM
 global.openai.gpt-5.6-luna,global.openai.gpt-5.6-luna,bedrock_converse,0.2,1.2,922000,paid,LiteLLM
 gpt-5.6-luna,gpt-5.6-luna,openai,0.2,1.2,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.6-luna,perplexity_orchestrator/openai/gpt-5.6-luna,perplexity_orchestrator,0.2,1.2,272000,paid,LiteLLM
 zerogpu/gpt-5.6-luna,zerogpu/gpt-5.6-luna,zerogpu,0.2,1.2,272000,paid,LiteLLM
 morph/morph-v3-large:batch,Morph: Morph V3 Large (batch),morph,0.45,0.95,262144,paid,OpenRouter
 azure_ai/MAI-Code-1.1-Flash,azure_ai/MAI-Code-1.1-Flash,azure_ai,0.2,1.2,256000,paid,LiteLLM
@@ -2117,6 +2122,7 @@ azure_ai/gpt-5.4-nano,azure_ai/gpt-5.4-nano,azure_ai,0.2,1.25,272000,paid,LiteLL
 azure_ai/gpt-5.4-nano-2026-03-17,azure_ai/gpt-5.4-nano-2026-03-17,azure_ai,0.2,1.25,272000,paid,LiteLLM
 gpt-5.4-nano,gpt-5.4-nano,openai,0.2,1.25,272000,paid,LiteLLM
 gpt-5.4-nano-2026-03-17,gpt-5.4-nano-2026-03-17,openai,0.2,1.25,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.4-nano,perplexity_orchestrator/openai/gpt-5.4-nano,perplexity_orchestrator,0.2,1.25,272000,paid,LiteLLM
 zerogpu/gpt-5.4-nano,zerogpu/gpt-5.4-nano,zerogpu,0.2,1.25,272000,paid,LiteLLM
 bedrock/eu-central-1/qwen.qwen3-235b-a22b-2507-v1:0,bedrock/eu-central-1/qwen.qwen3-235b-a22b-2507-v1:0,bedrock_converse,0.29,1.16,262144,paid,LiteLLM
 bedrock/eu-south-1/qwen.qwen3-235b-a22b-2507-v1:0,bedrock/eu-south-1/qwen.qwen3-235b-a22b-2507-v1:0,bedrock_converse,0.29,1.16,262144,paid,LiteLLM
@@ -2606,6 +2612,7 @@ azure/gpt-5-mini-2025-08-07,azure/gpt-5-mini-2025-08-07,azure,0.25,2.0,272000,pa
 gpt-5-mini,gpt-5-mini,openai,0.25,2.0,272000,paid,LiteLLM
 gpt-5-mini-2025-08-07,gpt-5-mini-2025-08-07,openai,0.25,2.0,272000,paid,LiteLLM
 oci/openai.gpt-5-mini,oci/openai.gpt-5-mini,oci,0.25,2.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5-mini,perplexity_orchestrator/openai/gpt-5-mini,perplexity_orchestrator,0.25,2.0,272000,paid,LiteLLM
 bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct,bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct,bedrock_mantle,0.45,1.8,262144,paid,LiteLLM
 bytedance-seed/seed-2.0-lite,ByteDance Seed: Seed-2.0-Lite,bytedance-seed,0.25,2.0,262144,paid,OpenRouter
 fireworks_ai/accounts/fireworks/models/qwen3-coder-480b-a35b-instruct,fireworks_ai/accounts/fireworks/models/qwen3-coder-480b-a35b-instruct,fireworks_ai,0.45,1.8,262144,paid,LiteLLM
@@ -2789,6 +2796,7 @@ gmi/google/gemini-3.5-flash-lite,gmi/google/gemini-3.5-flash-lite,gmi,0.3,2.5,10
 mistral/mistral-large-4,mistral/mistral-large-4,mistral,0.7,2.1,1048576,paid,LiteLLM
 mistral/mistral-large-4-0,mistral/mistral-large-4-0,mistral,0.7,2.1,1048576,paid,LiteLLM
 mistral/mistral-large-latest,mistral/mistral-large-latest,mistral,0.7,2.1,1048576,paid,LiteLLM
+perplexity_orchestrator/google/gemini-3.5-flash-lite,perplexity_orchestrator/google/gemini-3.5-flash-lite,perplexity_orchestrator,0.3,2.5,1048576,paid,LiteLLM
 vertex_ai/gemini-3.5-flash-lite,vertex_ai/gemini-3.5-flash-lite,vertex_ai-language-models,0.3,2.5,1048576,paid,LiteLLM
 amazon.nova-2-lite-v1:0,amazon.nova-2-lite-v1:0,bedrock_converse,0.3,2.5,1000000,paid,LiteLLM
 amazon/nova-2-lite-v1,Amazon: Nova 2 Lite,amazon,0.3,2.5,1000000,paid,OpenRouter
@@ -3295,6 +3303,8 @@ gemini/gemini-3.8-flash,gemini/gemini-3.8-flash,gemini,0.75,3.75,1048576,paid,Li
 gemini/gemini-flash-latest,gemini/gemini-flash-latest,gemini,0.75,3.75,1048576,paid,LiteLLM
 gmi/google/gemini-3.7-flash,gmi/google/gemini-3.7-flash,gmi,0.75,3.75,1048576,paid,LiteLLM
 gmi/google/gemini-3.8-flash,gmi/google/gemini-3.8-flash,gmi,0.75,3.75,1048576,paid,LiteLLM
+perplexity_orchestrator/google/gemini-3.7-flash,perplexity_orchestrator/google/gemini-3.7-flash,perplexity_orchestrator,0.75,3.75,1048576,paid,LiteLLM
+perplexity_orchestrator/google/gemini-3.8-flash,perplexity_orchestrator/google/gemini-3.8-flash,perplexity_orchestrator,0.75,3.75,1048576,paid,LiteLLM
 vertex_ai/gemini-3.6-flash,vertex_ai/gemini-3.6-flash,vertex_ai,0.75,3.75,1048576,paid,LiteLLM
 vertex_ai/gemini-3.7-flash,vertex_ai/gemini-3.7-flash,vertex_ai,0.75,3.75,1048576,paid,LiteLLM
 vertex_ai/gemini-3.8-flash,vertex_ai/gemini-3.8-flash,vertex_ai,0.75,3.75,1048576,paid,LiteLLM
@@ -3411,7 +3421,7 @@ databricks/databricks-inkling,databricks/databricks-inkling,databricks,1.00002,4
 baidu/ernie-light-dt-1.0-intl,Baidu: ERNIE-Light-DT-1.0,baidu,1.13,3.94,1024000,paid,OpenRouter
 aihubmix/deepseek-v4-pro,aihubmix/deepseek-v4-pro,aihubmix,1.69,3.38,1000000,paid,LiteLLM
 aihubmix/glm-5.3,aihubmix/glm-5.3,aihubmix,1.1268,3.9438,1048576,paid,LiteLLM
-~deepseek/deepseek-pro-latest,DeepSeek: DeepSeek Pro Latest,~deepseek,0.1188,5.0,1048576,paid,OpenRouter
+~deepseek/deepseek-pro-latest,DeepSeek: DeepSeek Pro Latest,~deepseek,0.0999,5.0,1048576,paid,OpenRouter
 bigmodel/glm-5.3,bigmodel/glm-5.3,bigmodel,1.142857,4.0,1000000,paid,LiteLLM
 bedrock/us-west-1/amazon.nova-pro-v1:0,bedrock/us-west-1/amazon.nova-pro-v1:0,bedrock_converse,1.03,4.12,300000,paid,LiteLLM
 bedrock/us-west-1/us.amazon.nova-pro-v1:0,bedrock/us-west-1/us.amazon.nova-pro-v1:0,bedrock_converse,1.03,4.12,300000,paid,LiteLLM
@@ -3442,6 +3452,7 @@ azure_ai/gpt-5.4-mini-2026-03-17,azure_ai/gpt-5.4-mini-2026-03-17,azure_ai,0.75,
 databricks/databricks-gpt-5-4-mini,databricks/databricks-gpt-5-4-mini,databricks,0.74998,4.50002,272000,paid,LiteLLM
 gpt-5.4-mini,gpt-5.4-mini,openai,0.75,4.5,272000,paid,LiteLLM
 gpt-5.4-mini-2026-03-17,gpt-5.4-mini-2026-03-17,openai,0.75,4.5,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.4-mini,perplexity_orchestrator/openai/gpt-5.4-mini,perplexity_orchestrator,0.75,4.5,272000,paid,LiteLLM
 wandb/deepseek-ai/DeepSeek-V4-Pro-0813,wandb/deepseek-ai/DeepSeek-V4-Pro-0813,wandb,1.31,3.96,1049000,paid,LiteLLM
 databricks/databricks-deepseek-v4-pro-0813,databricks/databricks-deepseek-v4-pro-0813,databricks,1.31999,3.95997,1000000,paid,LiteLLM
 baseten/deepseek-ai/DeepSeek-V4-Pro-0813,baseten/deepseek-ai/DeepSeek-V4-Pro-0813,baseten,1.32,3.96,1048576,paid,LiteLLM
@@ -3449,6 +3460,7 @@ fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813,fireworks_ai/account
 fireworks_ai/deepseek-v4-pro-0813,fireworks_ai/deepseek-v4-pro-0813,fireworks_ai,1.32,3.96,1048576,paid,LiteLLM
 nebius/deepseek-ai/DeepSeek-V4-Pro-0813,nebius/deepseek-ai/DeepSeek-V4-Pro-0813,nebius,1.32,3.96,1048576,paid,LiteLLM
 novita/deepseek/deepseek-v4-pro-0813,novita/deepseek/deepseek-v4-pro-0813,novita,1.32,3.96,1048576,paid,LiteLLM
+perplexity_orchestrator/perplexity/deepseek-v4-pro-0813,perplexity_orchestrator/perplexity/deepseek-v4-pro-0813,perplexity_orchestrator,1.32,3.96,1048576,paid,LiteLLM
 together_ai/deepseek-ai/DeepSeek-V4-Pro-0813,together_ai/deepseek-ai/DeepSeek-V4-Pro-0813,together_ai,1.32,3.96,1048576,paid,LiteLLM
 streamlake/DeepSeek-V4-Pro-0813,streamlake/DeepSeek-V4-Pro-0813,streamlake,1.32,3.96,1048566,paid,LiteLLM
 deepseek-v4-pro,deepseek-v4-pro,deepseek,1.32,3.96,1000000,paid,LiteLLM
@@ -3542,6 +3554,7 @@ together_ai/zai-org/GLM-5.3,together_ai/zai-org/GLM-5.3,together_ai,1.4,4.4,1048
 streamlake/glm-5.2,streamlake/glm-5.2,streamlake,1.4,4.4,1048566,paid,LiteLLM
 opencode_go/glm-5.2,opencode_go/glm-5.2,opencode_go,1.4,4.4,1000000,paid,LiteLLM
 opencode_go/glm-5.3,opencode_go/glm-5.3,opencode_go,1.4,4.4,1000000,paid,LiteLLM
+perplexity_orchestrator/perplexity/glm-5.3,perplexity_orchestrator/perplexity/glm-5.3,perplexity_orchestrator,1.4,4.4,1000000,paid,LiteLLM
 tencent/glm-5.2,tencent/glm-5.2,tencent,1.4,4.4,1000000,paid,LiteLLM
 tencent/glm-5.3,tencent/glm-5.3,tencent,1.4,4.4,1000000,paid,LiteLLM
 vertex_ai/zai-org/glm-5.2-maas,vertex_ai/zai-org/glm-5.2-maas,vertex_ai-zai_models,1.4,4.4,1000000,paid,LiteLLM
@@ -3571,6 +3584,7 @@ azure/gpt-6.1-terra,azure/gpt-6.1-terra,azure,1.0,5.0,922000,paid,LiteLLM
 azure_ai/gpt-6.1-terra,azure_ai/gpt-6.1-terra,azure_ai,1.0,5.0,922000,paid,LiteLLM
 global.openai.gpt-6.1-terra,global.openai.gpt-6.1-terra,bedrock_converse,1.0,5.0,922000,paid,LiteLLM
 gpt-6.1-terra,gpt-6.1-terra,openai,1.0,5.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6.1-terra,perplexity_orchestrator/openai/gpt-6.1-terra,perplexity_orchestrator,1.0,5.0,922000,paid,LiteLLM
 crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507,crusoe/Qwen/Qwen3-235B-A22B-Instruct-2507,crusoe,3.0,3.0,262144,paid,LiteLLM
 anthropic.claude-haiku-4-5-20251001-v1:0,anthropic.claude-haiku-4-5-20251001-v1:0,bedrock_converse,1.0,5.0,200000,paid,LiteLLM
 anthropic.claude-haiku-4-5@20251001,anthropic.claude-haiku-4-5@20251001,bedrock_converse,1.0,5.0,200000,paid,LiteLLM
@@ -3580,6 +3594,7 @@ claude-haiku-4-5,claude-haiku-4-5,anthropic,1.0,5.0,200000,paid,LiteLLM
 claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,anthropic,1.0,5.0,200000,paid,LiteLLM
 deepinfra/anthropic/claude-haiku-4-5,deepinfra/anthropic/claude-haiku-4-5,deepinfra,1.0,5.0,200000,paid,LiteLLM
 global.anthropic.claude-haiku-4-5-20251001-v1:0,global.anthropic.claude-haiku-4-5-20251001-v1:0,bedrock_converse,1.0,5.0,200000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-haiku-4-5,perplexity_orchestrator/anthropic/claude-haiku-4-5,perplexity_orchestrator,1.0,5.0,200000,paid,LiteLLM
 snowflake/claude-haiku-4-5,snowflake/claude-haiku-4-5,snowflake,1.0,5.0,200000,paid,LiteLLM
 vercel_ai_gateway/anthropic/claude-haiku-4.5,vercel_ai_gateway/anthropic/claude-haiku-4.5,vercel_ai_gateway,1.0,5.0,200000,paid,LiteLLM
 vertex_ai/claude-3-5-haiku,vertex_ai/claude-3-5-haiku,vertex_ai-anthropic_models,1.0,5.0,200000,paid,LiteLLM
@@ -3723,6 +3738,9 @@ github_copilot/grok-4.6,github_copilot/grok-4.6,github_copilot,2.0,6.0,500000,pa
 github_copilot/grok-4.7,github_copilot/grok-4.7,github_copilot,2.0,6.0,500000,paid,LiteLLM
 global.xai.grok-4.6,global.xai.grok-4.6,bedrock_converse,2.0,6.0,500000,paid,LiteLLM
 gmi/xai/grok4.7,gmi/xai/grok4.7,gmi,2.0,6.0,500000,paid,LiteLLM
+perplexity_orchestrator/xai/grok-4.5,perplexity_orchestrator/xai/grok-4.5,perplexity_orchestrator,2.0,6.0,500000,paid,LiteLLM
+perplexity_orchestrator/xai/grok-4.6,perplexity_orchestrator/xai/grok-4.6,perplexity_orchestrator,2.0,6.0,500000,paid,LiteLLM
+perplexity_orchestrator/xai/grok-4.7,perplexity_orchestrator/xai/grok-4.7,perplexity_orchestrator,2.0,6.0,500000,paid,LiteLLM
 xai/grok-4.5,xai/grok-4.5,xai,2.0,6.0,500000,paid,LiteLLM
 xai/grok-4.5-latest,xai/grok-4.5-latest,xai,2.0,6.0,500000,paid,LiteLLM
 xai/grok-4.6,xai/grok-4.6,xai,2.0,6.0,500000,paid,LiteLLM
@@ -3781,6 +3799,7 @@ gemini/gemini-4-hydrogen,gemini/gemini-4-hydrogen,gemini,1.5,7.5,1048576,paid,Li
 gmi/google/gemini-3.6-flash,gmi/google/gemini-3.6-flash,gmi,1.5,7.5,1048576,paid,LiteLLM
 gmi/google/gemini-4-hydrogen,gmi/google/gemini-4-hydrogen,gmi,1.5,7.5,1048576,paid,LiteLLM
 openrouter/google/gemini-4-hydrogen,openrouter/google/gemini-4-hydrogen,openrouter,1.5,7.5,1048576,paid,LiteLLM
+perplexity_orchestrator/google/gemini-3.6-flash,perplexity_orchestrator/google/gemini-3.6-flash,perplexity_orchestrator,1.5,7.5,1048576,paid,LiteLLM
 vertex_ai/gemini-3.8-flash-cyber,vertex_ai/gemini-3.8-flash-cyber,vertex_ai,1.5,7.5,1048576,paid,LiteLLM
 vertex_ai/gemini-4-hydrogen,vertex_ai/gemini-4-hydrogen,vertex_ai,1.5,7.5,1048576,paid,LiteLLM
 ~google/gemini-flash-latest,Google: Gemini Flash Latest,~google,1.5,7.5,1048576,paid,OpenRouter
@@ -3858,6 +3877,7 @@ gemini/genie-4,gemini/genie-4,gemini,1.5,9.0,1048576,paid,LiteLLM
 gmi/google/gemini-3.5-flash,gmi/google/gemini-3.5-flash,gmi,1.5,9.0,1048576,paid,LiteLLM
 vertex_ai/gemini-3.5-flash,vertex_ai/gemini-3.5-flash,vertex_ai,1.5,9.0,1048576,paid,LiteLLM
 deepinfra/google/gemini-3.5-flash,deepinfra/google/gemini-3.5-flash,deepinfra,1.5,9.0,1000000,paid,LiteLLM
+perplexity_orchestrator/google/gemini-3.5-flash,perplexity_orchestrator/google/gemini-3.5-flash,perplexity_orchestrator,1.5,9.0,1000000,paid,LiteLLM
 gemini-omni-flash-preview,gemini-omni-flash-preview,vertex_ai-language-models,1.5,9.0,131072,paid,LiteLLM
 gemini/gemini-omni-1.1-flash,gemini/gemini-omni-1.1-flash,gemini,1.5,9.0,131072,paid,LiteLLM
 gemini/gemini-omni-1.2-flash,gemini/gemini-omni-1.2-flash,gemini,1.5,9.0,131072,paid,LiteLLM
@@ -3911,6 +3931,8 @@ gpt-5-search-api-2025-10-14,gpt-5-search-api-2025-10-14,openai,1.25,10.0,272000,
 gpt-5.1,gpt-5.1,openai,1.25,10.0,272000,paid,LiteLLM
 gpt-5.1-2025-11-13,gpt-5.1-2025-11-13,openai,1.25,10.0,272000,paid,LiteLLM
 oci/openai.gpt-5,oci/openai.gpt-5,oci,1.25,10.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5,perplexity_orchestrator/openai/gpt-5,perplexity_orchestrator,1.25,10.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.1,perplexity_orchestrator/openai/gpt-5.1,perplexity_orchestrator,1.25,10.0,272000,paid,LiteLLM
 azure/gpt-5-chat,azure/gpt-5-chat,azure,1.25,10.0,128000,paid,LiteLLM
 gemini-2.5-computer-use-preview-10-2025,gemini-2.5-computer-use-preview-10-2025,vertex_ai-language-models,1.25,10.0,128000,paid,LiteLLM
 gemini/gemini-2.5-computer-use-preview-10-2025,gemini/gemini-2.5-computer-use-preview-10-2025,gemini,1.25,10.0,128000,paid,LiteLLM
@@ -3960,6 +3982,8 @@ claude-sonnet-5-5,claude-sonnet-5-5,anthropic,2.0,10.0,1000000,paid,LiteLLM
 global.anthropic.claude-sonnet-5,global.anthropic.claude-sonnet-5,bedrock_converse,2.0,10.0,1000000,paid,LiteLLM
 global.anthropic.claude-sonnet-5-5,global.anthropic.claude-sonnet-5-5,bedrock_converse,2.0,10.0,1000000,paid,LiteLLM
 global.openai.gpt-6.1-sol,global.openai.gpt-6.1-sol,bedrock_converse,2.0,10.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-sonnet-5,perplexity_orchestrator/anthropic/claude-sonnet-5,perplexity_orchestrator,2.0,10.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-sonnet-5-5,perplexity_orchestrator/anthropic/claude-sonnet-5-5,perplexity_orchestrator,2.0,10.0,1000000,paid,LiteLLM
 vertex_ai/claude-sonnet-5,vertex_ai/claude-sonnet-5,vertex_ai-anthropic_models,2.0,10.0,1000000,paid,LiteLLM
 vertex_ai/claude-sonnet-5-5,vertex_ai/claude-sonnet-5-5,vertex_ai-anthropic_models,2.0,10.0,1000000,paid,LiteLLM
 vertex_ai/claude-sonnet-5-5@default,vertex_ai/claude-sonnet-5-5@default,vertex_ai-anthropic_models,2.0,10.0,1000000,paid,LiteLLM
@@ -3979,6 +4003,9 @@ gpt-6.1-sol,gpt-6.1-sol,openai,2.0,10.0,922000,paid,LiteLLM
 gpt-6.2-sol,gpt-6.2-sol,openai,2.0,10.0,922000,paid,LiteLLM
 openai.gpt-6-sol,openai.gpt-6-sol,bedrock_converse,2.0,10.0,922000,paid,LiteLLM
 openai.gpt-6.2-sol,openai.gpt-6.2-sol,bedrock_converse,2.0,10.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6-sol,perplexity_orchestrator/openai/gpt-6-sol,perplexity_orchestrator,2.0,10.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6.1-sol,perplexity_orchestrator/openai/gpt-6.1-sol,perplexity_orchestrator,2.0,10.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6.2-sol,perplexity_orchestrator/openai/gpt-6.2-sol,perplexity_orchestrator,2.0,10.0,872000,paid,LiteLLM
 empiriolabs/nova-pro-1-0,empiriolabs/nova-pro-1-0,empiriolabs,2.4,9.6,317319,paid,LiteLLM
 github_copilot/claude-sonnet-5,github_copilot/claude-sonnet-5,github_copilot,2.0,10.0,200000,paid,LiteLLM
 github_copilot/claude-sonnet-5.5,github_copilot/claude-sonnet-5.5,github_copilot,2.0,10.0,200000,paid,LiteLLM
@@ -4101,6 +4128,7 @@ azure_ai/gpt-5.6-terra-2026-07-09,azure_ai/gpt-5.6-terra-2026-07-09,azure_ai,2.0
 databricks/databricks-gpt-5-6-terra,databricks/databricks-gpt-5-6-terra,databricks,1.99997,12.00003,922000,paid,LiteLLM
 global.openai.gpt-5.6-terra,global.openai.gpt-5.6-terra,bedrock_converse,2.0,12.0,922000,paid,LiteLLM
 gpt-5.6-terra,gpt-5.6-terra,openai,2.0,12.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.6-terra,perplexity_orchestrator/openai/gpt-5.6-terra,perplexity_orchestrator,2.0,12.0,922000,paid,LiteLLM
 deep-research-pro-preview-12-2025,deep-research-pro-preview-12-2025,vertex_ai-language-models,2.0,12.0,65536,paid,LiteLLM
 vertex_ai/deep-research-pro-preview-12-2025,vertex_ai/deep-research-pro-preview-12-2025,vertex_ai-language-models,2.0,12.0,65536,paid,LiteLLM
 replicate/google/gemini-3-pro,replicate/google/gemini-3-pro,replicate,2.0,12.0,0,paid,LiteLLM
@@ -4146,6 +4174,7 @@ azure/gpt-5.2-2025-12-11,azure/gpt-5.2-2025-12-11,azure,1.75,14.0,272000,paid,Li
 databricks/databricks-gpt-5-2,databricks/databricks-gpt-5-2,databricks,1.75,14.0,272000,paid,LiteLLM
 gpt-5.2,gpt-5.2,openai,1.75,14.0,272000,paid,LiteLLM
 gpt-5.2-2025-12-11,gpt-5.2-2025-12-11,openai,1.75,14.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.2,perplexity_orchestrator/openai/gpt-5.2,perplexity_orchestrator,1.75,14.0,272000,paid,LiteLLM
 gpt-5.2-chat-latest,gpt-5.2-chat-latest,openai,1.75,14.0,128000,paid,LiteLLM
 gpt-5.3-chat-latest,gpt-5.3-chat-latest,openai,1.75,14.0,128000,paid,LiteLLM
 azure/gpt-5.2-chat,azure/gpt-5.2-chat,azure,1.75,14.0,111616,paid,LiteLLM
@@ -4190,6 +4219,7 @@ databricks/databricks-gpt-5-4,databricks/databricks-gpt-5-4,databricks,2.49998,1
 global.openai.gpt-5.4,global.openai.gpt-5.4,bedrock_converse,2.5,15.0,922000,paid,LiteLLM
 gmi/openai/gpt-5.4,gmi/openai/gpt-5.4,gmi,2.5,15.0,409600,paid,LiteLLM
 github_copilot/gpt-5.4,github_copilot/gpt-5.4,github_copilot,2.5,15.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.4,perplexity_orchestrator/openai/gpt-5.4,perplexity_orchestrator,2.5,15.0,272000,paid,LiteLLM
 databricks/databricks-gemini-3-pro-image,databricks/databricks-gemini-3-pro-image,databricks,2.49998,15.00002,65536,paid,LiteLLM
 replicate/openai/gpt-5.4,replicate/openai/gpt-5.4,replicate,2.5,15.0,0,paid,LiteLLM
 replicate/openai/gpt-5.6-terra,replicate/openai/gpt-5.6-terra,replicate,2.5,15.0,0,paid,LiteLLM
@@ -4207,6 +4237,7 @@ moonshot/kimi-k3,moonshot/kimi-k3,moonshot,3.0,15.0,1048576,paid,LiteLLM
 nebius/moonshotai/Kimi-K3,nebius/moonshotai/Kimi-K3,nebius,3.0,15.0,1048576,paid,LiteLLM
 novita/moonshotai/kimi-k3,novita/moonshotai/kimi-k3,novita,3.0,15.0,1048576,paid,LiteLLM
 opencode_go/kimi-k3,opencode_go/kimi-k3,opencode_go,3.0,15.0,1048576,paid,LiteLLM
+perplexity_orchestrator/perplexity/kimi-k3,perplexity_orchestrator/perplexity/kimi-k3,perplexity_orchestrator,3.0,15.0,1048576,paid,LiteLLM
 together_ai/moonshotai/Kimi-K3,together_ai/moonshotai/Kimi-K3,together_ai,3.0,15.0,1048576,paid,LiteLLM
 vertex_ai/gemini-4-neon,vertex_ai/gemini-4-neon,vertex_ai,3.0,15.0,1048576,paid,LiteLLM
 wally/kimi-k3,wally/kimi-k3,wally,3.0,15.0,1048576,paid,LiteLLM
@@ -4218,6 +4249,7 @@ deepinfra/anthropic/claude-sonnet-4-6,deepinfra/anthropic/claude-sonnet-4-6,deep
 deepinfra/anthropic/claude-sonnet-5,deepinfra/anthropic/claude-sonnet-5,deepinfra,3.0,15.0,1000000,paid,LiteLLM
 global.anthropic.claude-sonnet-4-6,global.anthropic.claude-sonnet-4-6,bedrock_converse,3.0,15.0,1000000,paid,LiteLLM
 global.moonshotai.kimi-k3,global.moonshotai.kimi-k3,bedrock_converse,3.0,15.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-sonnet-4-6,perplexity_orchestrator/anthropic/claude-sonnet-4-6,perplexity_orchestrator,3.0,15.0,1000000,paid,LiteLLM
 tencent/kimi-k3,tencent/kimi-k3,tencent,3.0,15.0,1000000,paid,LiteLLM
 vercel_ai_gateway/anthropic/claude-sonnet-4.5,vercel_ai_gateway/anthropic/claude-sonnet-4.5,vercel_ai_gateway,3.0,15.0,1000000,paid,LiteLLM
 vertex_ai/claude-sonnet-4-6,vertex_ai/claude-sonnet-4-6,vertex_ai-anthropic_models,3.0,15.0,1000000,paid,LiteLLM
@@ -4251,6 +4283,7 @@ gradient_ai/anthropic-claude-3.5-sonnet,gradient_ai/anthropic-claude-3.5-sonnet,
 gradient_ai/anthropic-claude-3.7-sonnet,gradient_ai/anthropic-claude-3.7-sonnet,gradient_ai,3.0,15.0,200000,paid,LiteLLM
 perplexity/sonar-pro,Perplexity: Sonar Pro,perplexity,3.0,15.0,200000,paid,OpenRouter
 perplexity/sonar-pro-search,Perplexity: Sonar Pro Search,perplexity,3.0,15.0,200000,paid,OpenRouter
+perplexity_orchestrator/anthropic/claude-sonnet-4-5,perplexity_orchestrator/anthropic/claude-sonnet-4-5,perplexity_orchestrator,3.0,15.0,200000,paid,LiteLLM
 snowflake/claude-3-5-sonnet,snowflake/claude-3-5-sonnet,snowflake,3.0,15.0,200000,paid,LiteLLM
 snowflake/claude-3-7-sonnet,snowflake/claude-3-7-sonnet,snowflake,3.0,15.0,200000,paid,LiteLLM
 snowflake/claude-4-sonnet,snowflake/claude-4-sonnet,snowflake,3.0,15.0,200000,paid,LiteLLM
@@ -4363,6 +4396,7 @@ azure_ai/claude-opus-5-5,azure_ai/claude-opus-5-5,azure_ai,4.0,20.0,1000000,paid
 bedrock/claude_platform/claude-opus-5-5,bedrock/claude_platform/claude-opus-5-5,bedrock,4.0,20.0,1000000,paid,LiteLLM
 claude-opus-5-5,claude-opus-5-5,anthropic,4.0,20.0,1000000,paid,LiteLLM
 global.anthropic.claude-opus-5-5,global.anthropic.claude-opus-5-5,bedrock_converse,4.0,20.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-5-5,perplexity_orchestrator/anthropic/claude-opus-5-5,perplexity_orchestrator,4.0,20.0,1000000,paid,LiteLLM
 vertex_ai/claude-opus-5-5,vertex_ai/claude-opus-5-5,vertex_ai-anthropic_models,4.0,20.0,1000000,paid,LiteLLM
 vertex_ai/claude-opus-5-5@default,vertex_ai/claude-opus-5-5@default,vertex_ai-anthropic_models,4.0,20.0,1000000,paid,LiteLLM
 ~anthropic/claude-opus-latest,Anthropic: Claude Opus Latest,~anthropic,4.0,20.0,1000000,paid,OpenRouter
@@ -4376,6 +4410,7 @@ global.openai.gpt-5.6-sol,global.openai.gpt-5.6-sol,bedrock_converse,4.0,20.0,92
 global.openai.gpt-daybreak-blue-5.6-sol,global.openai.gpt-daybreak-blue-5.6-sol,bedrock_converse,4.0,20.0,922000,paid,LiteLLM
 gpt-5.6,gpt-5.6,openai,4.0,20.0,922000,paid,LiteLLM
 gpt-5.6-sol,gpt-5.6-sol,openai,4.0,20.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.6-sol,perplexity_orchestrator/openai/gpt-5.6-sol,perplexity_orchestrator,4.0,20.0,922000,paid,LiteLLM
 global.moonshotai.kimi-k3.1,global.moonshotai.kimi-k3.1,bedrock_converse,4.0,20.0,868928,paid,LiteLLM
 github_copilot/claude-opus-5.5,github_copilot/claude-opus-5.5,github_copilot,4.0,20.0,200000,paid,LiteLLM
 replicate/anthropic/claude-opus-5.5,replicate/anthropic/claude-opus-5.5,replicate,4.0,20.0,0,paid,LiteLLM
@@ -4439,6 +4474,10 @@ global.anthropic.claude-opus-4-6-v1,global.anthropic.claude-opus-4-6-v1,bedrock_
 global.anthropic.claude-opus-4-7,global.anthropic.claude-opus-4-7,bedrock_converse,5.0,25.0,1000000,paid,LiteLLM
 global.anthropic.claude-opus-4-8,global.anthropic.claude-opus-4-8,bedrock_converse,5.0,25.0,1000000,paid,LiteLLM
 global.anthropic.claude-opus-5,global.anthropic.claude-opus-5,bedrock_converse,5.0,25.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-4-6,perplexity_orchestrator/anthropic/claude-opus-4-6,perplexity_orchestrator,5.0,25.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-4-7,perplexity_orchestrator/anthropic/claude-opus-4-7,perplexity_orchestrator,5.0,25.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-4-8,perplexity_orchestrator/anthropic/claude-opus-4-8,perplexity_orchestrator,5.0,25.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-5,perplexity_orchestrator/anthropic/claude-opus-5,perplexity_orchestrator,5.0,25.0,1000000,paid,LiteLLM
 vertex_ai/claude-opus-4-6,vertex_ai/claude-opus-4-6,vertex_ai-anthropic_models,5.0,25.0,1000000,paid,LiteLLM
 vertex_ai/claude-opus-4-6@default,vertex_ai/claude-opus-4-6@default,vertex_ai-anthropic_models,5.0,25.0,1000000,paid,LiteLLM
 vertex_ai/claude-opus-4-7,vertex_ai/claude-opus-4-7,vertex_ai-anthropic_models,5.0,25.0,1000000,paid,LiteLLM
@@ -4456,6 +4495,7 @@ claude-opus-4-5-20251101,claude-opus-4-5-20251101,anthropic,5.0,25.0,200000,paid
 github_copilot/claude-opus-4.8,github_copilot/claude-opus-4.8,github_copilot,5.0,25.0,200000,paid,LiteLLM
 github_copilot/claude-opus-5,github_copilot/claude-opus-5,github_copilot,5.0,25.0,200000,paid,LiteLLM
 global.anthropic.claude-opus-4-5-20251101-v1:0,global.anthropic.claude-opus-4-5-20251101-v1:0,bedrock_converse,5.0,25.0,200000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-opus-4-5,perplexity_orchestrator/anthropic/claude-opus-4-5,perplexity_orchestrator,5.0,25.0,200000,paid,LiteLLM
 snowflake/claude-4-opus,snowflake/claude-4-opus,snowflake,5.0,25.0,200000,paid,LiteLLM
 vercel_ai_gateway/anthropic/claude-opus-4.5,vercel_ai_gateway/anthropic/claude-opus-4.5,vercel_ai_gateway,5.0,25.0,200000,paid,LiteLLM
 vercel_ai_gateway/anthropic/claude-opus-4.6,vercel_ai_gateway/anthropic/claude-opus-4.6,vercel_ai_gateway,5.0,25.0,200000,paid,LiteLLM
@@ -4480,6 +4520,7 @@ databricks/databricks-claude-opus-4-7,databricks/databricks-claude-opus-4-7,data
 databricks/databricks-claude-opus-4-8,databricks/databricks-claude-opus-4-8,databricks,5.00003,25.00001,1000000,paid,LiteLLM
 databricks/databricks-claude-opus-5,databricks/databricks-claude-opus-5,databricks,5.00003,25.00001,1000000,paid,LiteLLM
 databricks/databricks-claude-opus-4-5,databricks/databricks-claude-opus-4-5,databricks,5.00003,25.00001,200000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.3-codex,perplexity_orchestrator/openai/gpt-5.3-codex,perplexity_orchestrator,3.5,28.0,272000,paid,LiteLLM
 anthropic.claude-v1,anthropic.claude-v1,bedrock,8.0,24.0,100000,paid,LiteLLM
 anthropic.claude-v2:1,anthropic.claude-v2:1,bedrock,8.0,24.0,100000,paid,LiteLLM
 bedrock/ap-northeast-1/anthropic.claude-v1,bedrock/ap-northeast-1/anthropic.claude-v1,bedrock,8.0,24.0,100000,paid,LiteLLM
@@ -4544,6 +4585,7 @@ global.openai.gpt-5.5,global.openai.gpt-5.5,bedrock_converse,5.0,30.0,922000,pai
 aihubmix/gpt-chat-latest,aihubmix/gpt-chat-latest,aihubmix,5.0,30.0,400000,paid,LiteLLM
 chat-latest,chat-latest,openai,5.0,30.0,400000,paid,LiteLLM
 azure/chat-latest,azure/chat-latest,azure,5.0,30.0,272000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-5.5,perplexity_orchestrator/openai/gpt-5.5,perplexity_orchestrator,5.0,30.0,272000,paid,LiteLLM
 azure/gpt-chat-latest,azure/gpt-chat-latest,azure,5.0,30.0,128000,paid,LiteLLM
 azure_ai/gpt-chat-latest,azure_ai/gpt-chat-latest,azure_ai,5.0,30.0,128000,paid,LiteLLM
 bedrock/us-gov-east-1/anthropic.claude-opus-4-8,bedrock/us-gov-east-1/anthropic.claude-opus-4-8,bedrock,6.0,30.0,1000000,paid,LiteLLM
@@ -4591,6 +4633,7 @@ claude-mythos-5-2,claude-mythos-5-2,anthropic,8.0,40.0,1000000,paid,LiteLLM
 global.anthropic.claude-fable-5-2,global.anthropic.claude-fable-5-2,bedrock_converse,8.0,40.0,1000000,paid,LiteLLM
 global.anthropic.claude-mythos-5-2,global.anthropic.claude-mythos-5-2,bedrock_converse,8.0,40.0,1000000,paid,LiteLLM
 openrouter/anthropic/claude-fable-5.2,openrouter/anthropic/claude-fable-5.2,openrouter,8.0,40.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-fable-5-2,perplexity_orchestrator/anthropic/claude-fable-5-2,perplexity_orchestrator,8.0,40.0,1000000,paid,LiteLLM
 vertex_ai/claude-fable-5-2,vertex_ai/claude-fable-5-2,vertex_ai-anthropic_models,8.0,40.0,1000000,paid,LiteLLM
 vertex_ai/claude-fable-5-2@default,vertex_ai/claude-fable-5-2@default,vertex_ai-anthropic_models,8.0,40.0,1000000,paid,LiteLLM
 vertex_ai/claude-mythos-5-2,vertex_ai/claude-mythos-5-2,vertex_ai-anthropic_models,8.0,40.0,1000000,paid,LiteLLM
@@ -4601,6 +4644,7 @@ global.openai.gpt-6.2-astra,global.openai.gpt-6.2-astra,bedrock_converse,8.0,40.
 gpt-6.2-astra,gpt-6.2-astra,openai,8.0,40.0,922000,paid,LiteLLM
 gpt-6.2-astra-law,gpt-6.2-astra-law,openai,8.0,40.0,922000,paid,LiteLLM
 openai.gpt-6.2-astra,openai.gpt-6.2-astra,bedrock_converse,8.0,40.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6.2-astra,perplexity_orchestrator/openai/gpt-6.2-astra,perplexity_orchestrator,8.0,40.0,872000,paid,LiteLLM
 github_copilot/claude-fable-5.2,github_copilot/claude-fable-5.2,github_copilot,8.0,40.0,200000,paid,LiteLLM
 replicate/anthropic/claude-fable-5.2,replicate/anthropic/claude-fable-5.2,replicate,8.0,40.0,0,paid,LiteLLM
 databricks/databricks-claude-fable-5-2,databricks/databricks-claude-fable-5-2,databricks,8.00002,40.00003,1000000,paid,LiteLLM
@@ -4642,6 +4686,8 @@ deepinfra/anthropic/claude-fable-5,deepinfra/anthropic/claude-fable-5,deepinfra,
 global.anthropic.claude-fable-5,global.anthropic.claude-fable-5,bedrock_converse,10.0,50.0,1000000,paid,LiteLLM
 global.anthropic.claude-fable-5-1,global.anthropic.claude-fable-5-1,bedrock_converse,10.0,50.0,1000000,paid,LiteLLM
 global.anthropic.claude-mythos-5-1,global.anthropic.claude-mythos-5-1,bedrock_converse,10.0,50.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-fable-5,perplexity_orchestrator/anthropic/claude-fable-5,perplexity_orchestrator,10.0,50.0,1000000,paid,LiteLLM
+perplexity_orchestrator/anthropic/claude-fable-5-1,perplexity_orchestrator/anthropic/claude-fable-5-1,perplexity_orchestrator,10.0,50.0,1000000,paid,LiteLLM
 vertex_ai/claude-fable-5,vertex_ai/claude-fable-5,vertex_ai-anthropic_models,10.0,50.0,1000000,paid,LiteLLM
 vertex_ai/claude-fable-5-1,vertex_ai/claude-fable-5-1,vertex_ai-anthropic_models,10.0,50.0,1000000,paid,LiteLLM
 vertex_ai/claude-fable-5-1@default,vertex_ai/claude-fable-5-1@default,vertex_ai-anthropic_models,10.0,50.0,1000000,paid,LiteLLM
@@ -4653,6 +4699,7 @@ global.openai.gpt-6-astra,global.openai.gpt-6-astra,bedrock_converse,10.0,50.0,9
 gpt-6-astra,gpt-6-astra,openai,10.0,50.0,922000,paid,LiteLLM
 gpt-6-astra-law,gpt-6-astra-law,openai,10.0,50.0,922000,paid,LiteLLM
 gpt-6-rosalind,gpt-6-rosalind,openai,10.0,50.0,922000,paid,LiteLLM
+perplexity_orchestrator/openai/gpt-6-astra,perplexity_orchestrator/openai/gpt-6-astra,perplexity_orchestrator,10.0,50.0,922000,paid,LiteLLM
 github_copilot/claude-fable-5,github_copilot/claude-fable-5,github_copilot,10.0,50.0,200000,paid,LiteLLM
 github_copilot/claude-fable-5.1,github_copilot/claude-fable-5.1,github_copilot,10.0,50.0,200000,paid,LiteLLM
 github_copilot/claude-opus-4.8-fast,github_copilot/claude-opus-4.8-fast,github_copilot,10.0,50.0,200000,paid,LiteLLM

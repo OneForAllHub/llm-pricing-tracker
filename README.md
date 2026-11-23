@@ -1,7 +1,7 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T06%3A23%3A00Z-brightgreen?style=flat-square)
-![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4733-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T12%3A54%3A10Z-brightgreen?style=flat-square)
+![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4780-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 **Daily auto-updated comparison of LLM API token prices (Input / Output USD per 1M tokens) and context windows.**
