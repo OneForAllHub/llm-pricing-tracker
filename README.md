@@ -1,6 +1,6 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T12%3A54%3A10Z-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T17%3A30%3A21Z-brightgreen?style=flat-square)
 ![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4780-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
@@ -27,6 +27,7 @@
 | `google/gemma-3-12b-it` | google | $0.05 | $0.15 | 131,072 | OpenRouter |
 | `mistralai/ministral-3b-2512` | mistralai | $0.10 | $0.10 | 131,072 | OpenRouter |
 | `openai/gpt-5-nano:batch` | openai | $0.03 | $0.20 | 400,000 | OpenRouter |
+| `deepseek/deepseek-v4.1-flash-1017` | deepseek | $0.03 | $0.20 | 1,048,576 | OpenRouter |
 | `google/gemma-3-27b-it` | google | $0.08 | $0.16 | 131,072 | OpenRouter |
 | `deepseek/deepseek-v4.1-flash` | deepseek | $0.05 | $0.20 | 1,048,576 | OpenRouter |
 | `openai/gpt-4.1-nano:batch` | openai | $0.05 | $0.20 | 1,047,576 | OpenRouter |
@@ -52,7 +53,6 @@
 | `qwen/qwen3-30b-a3b-instruct-2507` | qwen | $0.10 | $0.30 | 262,144 | OpenRouter |
 | `mistralai/voxtral-small-24b-2507` | mistralai | $0.10 | $0.30 | 32,768 | OpenRouter |
 | `qwen/qwen3.5-9b` | qwen | $0.17 | $0.25 | 262,144 | OpenRouter |
-| `deepseek/deepseek-coder` | deepseek | $0.14 | $0.28 | 128,000 | LiteLLM |
 
 ## Cheapest Paid Models (USD per 1M Tokens)
 
