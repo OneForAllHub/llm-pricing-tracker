@@ -1,6 +1,6 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T06%3A16%3A03Z-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T06%3A18%3A26Z-brightgreen?style=flat-square)
 ![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4733-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
