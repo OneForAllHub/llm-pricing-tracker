@@ -3414,7 +3414,7 @@ bedrock_mantle/eu-north-1/zai.glm-5,bedrock_mantle/eu-north-1/zai.glm-5,bedrock_
 bedrock_mantle/sa-east-1/zai.glm-5,bedrock_mantle/sa-east-1/zai.glm-5,bedrock_mantle,1.2,3.84,200000,paid,LiteLLM
 baseten/thinkingmachines/inkling,baseten/thinkingmachines/inkling,baseten,1.0,4.05,1048576,paid,LiteLLM
 fireworks_ai/accounts/fireworks/models/inkling,fireworks_ai/accounts/fireworks/models/inkling,fireworks_ai,1.0,4.05,1048576,paid,LiteLLM
-thinkingmachines/inkling,Thinking Machines: Inkling,thinkingmachines,1.0,4.05,524288,paid,OpenRouter
+thinkingmachines/inkling,Thinking Machines: Inkling,thinkingmachines,1.0,4.05,1048576,paid,OpenRouter
 together_ai/thinkingmachines/Inkling,together_ai/thinkingmachines/Inkling,together_ai,1.0,4.05,524288,paid,LiteLLM
 together_ai/thinkingmachines/inkling,together_ai/thinkingmachines/inkling,together_ai,1.0,4.05,524288,paid,LiteLLM
 databricks/databricks-inkling,databricks/databricks-inkling,databricks,1.00002,4.04999,1000000,paid,LiteLLM

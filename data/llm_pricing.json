@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T17:33:50Z",
+  "updated_at": "2026-11-23T18:44:09Z",
   "total_tracked": 4780,
   "models": [
     {
@@ -34158,7 +34158,7 @@
       "provider": "thinkingmachines",
       "input_per_1m_usd": 1.0,
       "output_per_1m_usd": 4.05,
-      "context_length": 524288,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
