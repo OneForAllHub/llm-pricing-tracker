@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T06:52:26Z",
+  "updated_at": "2026-11-24T12:54:11Z",
   "total_tracked": 4778,
   "models": [
     {
@@ -203,16 +203,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.0498,
-      "output_per_1m_usd": 0.1992,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "openai/gpt-4.1-nano:batch",
       "name": "OpenAI: GPT-4.1 Nano (batch)",
       "provider": "openai",
@@ -306,7 +296,7 @@
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
-      "input_per_1m_usd": 0.045,
+      "input_per_1m_usd": 0.047,
       "output_per_1m_usd": 0.3,
       "context_length": 1048576,
       "tier": "paid",
@@ -479,6 +469,16 @@
       "input_per_1m_usd": 0.1,
       "output_per_1m_usd": 0.4,
       "context_length": 1047576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.14,
+      "output_per_1m_usd": 0.42,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -4343,6 +4343,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "inclusionai/ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
+      "provider": "inclusionai",
+      "input_per_1m_usd": 0.021,
+      "output_per_1m_usd": 0.063,
+      "context_length": 262144,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "darkbloom/gpt-oss-20b",
       "name": "darkbloom/gpt-oss-20b",
       "provider": "darkbloom",
@@ -4591,16 +4601,6 @@
       "context_length": 262144,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "z-ai/glm-5.3-flash",
-      "name": "Z.ai: GLM 5.3 Flash",
-      "provider": "z-ai",
-      "input_per_1m_usd": 0.0356,
-      "output_per_1m_usd": 0.0815,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "~z-ai/glm-flash-latest",
@@ -5258,16 +5258,6 @@
       "provider": "tencent",
       "input_per_1m_usd": 0.035,
       "output_per_1m_usd": 0.1405,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "provider": "~deepseek",
-      "input_per_1m_usd": 0.044,
-      "output_per_1m_usd": 0.132,
       "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
@@ -6581,16 +6571,6 @@
       "context_length": 131072,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash",
-      "name": "inclusionAI: Ling 3.0 Flash",
-      "provider": "inclusionai",
-      "input_per_1m_usd": 0.06,
-      "output_per_1m_usd": 0.18,
-      "context_length": 131072,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "inclusionai/ling-3.0-flash-vl",
@@ -8571,6 +8551,16 @@
       "context_length": 300000,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "name": "DeepSeek: DeepSeek V4 Flash Latest",
+      "provider": "~deepseek",
+      "input_per_1m_usd": 0.047,
+      "output_per_1m_usd": 0.3,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "bedrock/us-gov-east-1/nvidia.nemotron-nano-9b-v2",
@@ -12781,6 +12771,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "provider": "z-ai",
+      "input_per_1m_usd": 0.12,
+      "output_per_1m_usd": 0.38,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "azure/gpt-4.1-nano",
