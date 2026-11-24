@@ -1,7 +1,7 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--24T12%3A54%3A11Z-brightgreen?style=flat-square)
-![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4778-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--24T18%3A43%3A35Z-brightgreen?style=flat-square)
+![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4775-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 **Daily auto-updated comparison of LLM API token prices (Input / Output USD per 1M tokens) and context windows.**
@@ -30,6 +30,7 @@
 | `deepseek/deepseek-v4.1-flash-1017` | deepseek | $0.03 | $0.20 | 1,048,576 | OpenRouter |
 | `google/gemma-3-27b-it` | google | $0.08 | $0.16 | 131,072 | OpenRouter |
 | `openai/gpt-4.1-nano:batch` | openai | $0.05 | $0.20 | 1,047,576 | OpenRouter |
+| `deepseek/deepseek-v4.1-flash` | deepseek | $0.05 | $0.20 | 1,048,576 | OpenRouter |
 | `deepseek/deepseek-v4-flash` | deepseek | $0.09 | $0.18 | 1,048,576 | OpenRouter |
 | `mistralai/mistral-small-3.2-24b-instruct` | mistralai | $0.07 | $0.20 | 256,000 | OpenRouter |
 | `openai/gpt-6-luna-pro:batch` | openai | $0.05 | $0.25 | 1,050,000 | OpenRouter |
@@ -52,7 +53,6 @@
 | `qwen/qwen3-30b-a3b-instruct-2507` | qwen | $0.10 | $0.30 | 262,144 | OpenRouter |
 | `mistralai/voxtral-small-24b-2507` | mistralai | $0.10 | $0.30 | 32,768 | OpenRouter |
 | `qwen/qwen3.5-9b` | qwen | $0.17 | $0.25 | 262,144 | OpenRouter |
-| `deepseek/deepseek-coder` | deepseek | $0.14 | $0.28 | 128,000 | LiteLLM |
 
 ## Cheapest Paid Models (USD per 1M Tokens)
 
