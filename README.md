@@ -1,7 +1,7 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--23T18%3A44%3A09Z-brightgreen?style=flat-square)
-![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4780-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--24T00%3A41%3A34Z-brightgreen?style=flat-square)
+![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4781-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
 **Daily auto-updated comparison of LLM API token prices (Input / Output USD per 1M tokens) and context windows.**
@@ -14,8 +14,8 @@
 | Model ID | Provider | Input / 1M | Output / 1M | Context Window | Source |
 | --- | --- | ---: | ---: | ---: | --- |
 | `mistralai/mistral-nemo` | mistralai | $0.03 | $0.03 | 131,072 | OpenRouter |
-| `meta-llama/llama-3.1-8b-instruct` | meta-llama | $0.02 | $0.04 | 131,072 | OpenRouter |
 | `google/gemma-3-4b-it` | google | $0.04 | $0.05 | 131,072 | OpenRouter |
+| `meta-llama/llama-3.1-8b-instruct` | meta-llama | $0.05 | $0.08 | 131,072 | OpenRouter |
 | `mistralai/mistral-small-24b-instruct-2501` | mistralai | $0.05 | $0.08 | 32,768 | OpenRouter |
 | `openai/gpt-oss-20b:batch` | openai | $0.02 | $0.11 | 131,072 | OpenRouter |
 | `qwen/qwen3.7-flash` | qwen | $0.03 | $0.13 | 1,000,000 | OpenRouter |
@@ -39,6 +39,7 @@
 | `mistralai/ministral-8b-2512` | mistralai | $0.15 | $0.15 | 262,144 | OpenRouter |
 | `openai/gpt-oss-120b` | openai | $0.05 | $0.25 | 131,072 | OpenRouter |
 | `qwen/qwen3.5-flash-02-23` | qwen | $0.07 | $0.26 | 1,000,000 | OpenRouter |
+| `google/gemma-4-26b-a4b-it` | google | $0.08 | $0.26 | 262,144 | OpenRouter |
 | `deepseek/deepseek-v4-flash-0731` | deepseek | $0.04 | $0.30 | 1,048,576 | OpenRouter |
 | `qwen/qwen3-coder-30b-a3b-instruct` | qwen | $0.07 | $0.28 | 262,144 | OpenRouter |
 | `meta-llama/llama-guard-4-12b` | meta-llama | $0.18 | $0.18 | 163,840 | OpenRouter |
@@ -47,7 +48,6 @@
 | `openai/gpt-oss-safeguard-20b` | openai | $0.07 | $0.30 | 131,072 | OpenRouter |
 | `openai/gpt-4o-mini:batch` | openai | $0.07 | $0.30 | 128,000 | OpenRouter |
 | `meta-llama/llama-3.2-3b-instruct` | meta-llama | $0.05 | $0.33 | 131,072 | OpenRouter |
-| `google/gemma-4-26b-a4b-it` | google | $0.09 | $0.30 | 262,144 | OpenRouter |
 | `meta-llama/llama-4-scout` | meta-llama | $0.10 | $0.30 | 1,310,720 | OpenRouter |
 | `mistralai/ministral-14b-2512` | mistralai | $0.20 | $0.20 | 262,144 | OpenRouter |
 | `qwen/qwen3-30b-a3b-instruct-2507` | qwen | $0.10 | $0.30 | 262,144 | OpenRouter |
@@ -81,13 +81,13 @@
 | `scaledown/decisions` | scaledown | $0.05 | $0.00 | 0 | LiteLLM |
 | `mistralai/mistral-nemo` | mistralai | $0.03 | $0.03 | 131,072 | OpenRouter |
 | `deepinfra/mistralai/Mistral-Nemo-Instruct-2407` | deepinfra | $0.03 | $0.03 | 131,072 | LiteLLM |
-| `meta-llama/llama-3.1-8b-instruct` | meta-llama | $0.02 | $0.04 | 131,072 | OpenRouter |
 | `inclusionai/ling-3.0-tiny` | inclusionai | $0.01 | $0.04 | 262,144 | OpenRouter |
 | `deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-T…` | deepinfra | $0.02 | $0.04 | 131,072 | LiteLLM |
 | `novita/qwen/qwen3-4b-fp8` | novita | $0.03 | $0.03 | 128,000 | LiteLLM |
 | `novita/deepseek/deepseek-ocr` | novita | $0.03 | $0.03 | 8,192 | LiteLLM |
 | `novita/deepseek/deepseek-ocr-2` | novita | $0.03 | $0.03 | 8,192 | LiteLLM |
 | `groq/meta-llama/llama-prompt-guard-2-22m` | groq | $0.03 | $0.03 | 512 | LiteLLM |
+| `nscale/meta-llama/Llama-3.1-8B-Instruct` | nscale | $0.03 | $0.03 | 0 | LiteLLM |
 
 ## Dedicated Topic & SEO Pages
 
