@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-24T00:41:34Z",
-  "total_tracked": 4781,
+  "updated_at": "2026-11-24T06:52:26Z",
+  "total_tracked": 4778,
   "models": [
     {
       "id": "google/lyria-3-clip-preview",
@@ -303,20 +303,10 @@
       "source": "OpenRouter"
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "provider": "google",
-      "input_per_1m_usd": 0.0765,
-      "output_per_1m_usd": 0.255,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
-      "input_per_1m_usd": 0.0434,
+      "input_per_1m_usd": 0.045,
       "output_per_1m_usd": 0.3,
       "context_length": 1048576,
       "tier": "paid",
@@ -389,6 +379,16 @@
       "input_per_1m_usd": 0.05,
       "output_per_1m_usd": 0.33,
       "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "input_per_1m_usd": 0.09,
+      "output_per_1m_usd": 0.3,
+      "context_length": 262144,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -1193,16 +1193,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.9,
-      "output_per_1m_usd": 1.5,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
       "provider": "mistralai",
@@ -1469,6 +1459,16 @@
       "input_per_1m_usd": 1.25,
       "output_per_1m_usd": 2.5,
       "context_length": 1000000,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "provider": "deepseek",
+      "input_per_1m_usd": 1.28,
+      "output_per_1m_usd": 2.56,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -4343,16 +4343,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "inclusionai/ling-3.0-flash",
-      "name": "inclusionAI: Ling 3.0 Flash",
-      "provider": "inclusionai",
-      "input_per_1m_usd": 0.021,
-      "output_per_1m_usd": 0.063,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "darkbloom/gpt-oss-20b",
       "name": "darkbloom/gpt-oss-20b",
       "provider": "darkbloom",
@@ -5268,6 +5258,16 @@
       "provider": "tencent",
       "input_per_1m_usd": 0.035,
       "output_per_1m_usd": 0.1405,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "name": "DeepSeek: DeepSeek V4 Flash Latest",
+      "provider": "~deepseek",
+      "input_per_1m_usd": 0.044,
+      "output_per_1m_usd": 0.132,
       "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
@@ -6543,16 +6543,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "inclusionai/ling-3.1-flash",
-      "name": "inclusionAI: Ling 3.1 Flash",
-      "provider": "inclusionai",
-      "input_per_1m_usd": 0.06,
-      "output_per_1m_usd": 0.18,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "novita/inclusionai/ling-3.0-flash",
       "name": "novita/inclusionai/ling-3.0-flash",
       "provider": "novita",
@@ -6591,6 +6581,16 @@
       "context_length": 131072,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
+      "provider": "inclusionai",
+      "input_per_1m_usd": 0.06,
+      "output_per_1m_usd": 0.18,
+      "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "inclusionai/ling-3.0-flash-vl",
@@ -7351,6 +7351,16 @@
       "context_length": 128000,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "inclusionai/ling-3.1-flash",
+      "name": "inclusionAI: Ling 3.1 Flash",
+      "provider": "inclusionai",
+      "input_per_1m_usd": 0.075,
+      "output_per_1m_usd": 0.225,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/nvidia/Nemotron-3_5-Lightning",
@@ -8543,16 +8553,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "~deepseek/deepseek-v4-flash-latest",
-      "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "provider": "~deepseek",
-      "input_per_1m_usd": 0.0434,
-      "output_per_1m_usd": 0.3,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "bedrock/eu-west-1/amazon.nova-lite-v1:0",
       "name": "bedrock/eu-west-1/amazon.nova-lite-v1:0",
       "provider": "bedrock_converse",
@@ -9411,16 +9411,6 @@
       "context_length": 32000,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "minimax/minimax-m3.1-flash",
-      "name": "MiniMax: MiniMax M3.1 Flash",
-      "provider": "minimax",
-      "input_per_1m_usd": 0.075,
-      "output_per_1m_usd": 0.3,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "oci/google.gemini-2.5-flash-lite",
@@ -15003,6 +14993,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "tencent/hy3",
+      "name": "Tencent: Hy3",
+      "provider": "tencent",
+      "input_per_1m_usd": 0.132,
+      "output_per_1m_usd": 0.528,
+      "context_length": 262144,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "novita/deepseek/deepseek-v3.2",
       "name": "novita/deepseek/deepseek-v3.2",
       "provider": "novita",
@@ -15433,16 +15433,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "tencent/hy3",
-      "name": "Tencent: Hy3",
-      "provider": "tencent",
-      "input_per_1m_usd": 0.14,
-      "output_per_1m_usd": 0.58,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "opencode_go/hy3",
       "name": "opencode_go/hy3",
       "provider": "opencode_go",
@@ -15691,6 +15681,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "provider": "minimax",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/MiniMaxAI/MiniMax-M3.1-Flash",
@@ -20483,16 +20483,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "stepfun/step-3.7-flash",
-      "name": "StepFun: Step 3.7 Flash",
-      "provider": "stepfun",
-      "input_per_1m_usd": 0.2,
-      "output_per_1m_usd": 1.15,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "vertex_ai/qwen/qwen3-next-80b-a3b-instruct-maas",
       "name": "vertex_ai/qwen/qwen3-next-80b-a3b-instruct-maas",
       "provider": "vertex_ai-qwen_models",
@@ -20531,6 +20521,16 @@
       "context_length": 256000,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "stepfun/step-3.7-flash",
+      "name": "StepFun: Step 3.7 Flash",
+      "provider": "stepfun",
+      "input_per_1m_usd": 0.2,
+      "output_per_1m_usd": 1.15,
+      "context_length": 256000,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/Qwen/Qwen3-Next-80B-A3B-Thinking",
@@ -28343,16 +28343,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "moonshotai/kimi-k2",
-      "name": "MoonshotAI: Kimi K2 0711",
-      "provider": "moonshotai",
-      "input_per_1m_usd": 0.57,
-      "output_per_1m_usd": 2.3,
-      "context_length": 131072,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "novita/moonshotai/kimi-k2-instruct",
       "name": "novita/moonshotai/kimi-k2-instruct",
       "provider": "novita",
@@ -29361,26 +29351,6 @@
       "context_length": 262144,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "moonshotai/kimi-k2-0905",
-      "name": "MoonshotAI: Kimi K2 0905",
-      "provider": "moonshotai",
-      "input_per_1m_usd": 0.6,
-      "output_per_1m_usd": 2.5,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "moonshotai/kimi-k2-thinking",
-      "name": "MoonshotAI: Kimi K2 Thinking",
-      "provider": "moonshotai",
-      "input_per_1m_usd": 0.6,
-      "output_per_1m_usd": 2.5,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "novita/moonshotai/kimi-k2-0905",
@@ -41048,7 +41018,7 @@
       "provider": "azure_ai",
       "input_per_1m_usd": 2.3,
       "output_per_1m_usd": 11.5,
-      "context_length": 1048576,
+      "context_length": 1000000,
       "tier": "paid",
       "source": "LiteLLM"
     },
