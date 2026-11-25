@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T06:55:18Z",
-  "total_tracked": 4784,
+  "updated_at": "2026-11-25T12:56:48Z",
+  "total_tracked": 4786,
   "models": [
     {
       "id": "google/lyria-3-clip-preview",
@@ -203,6 +203,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.0507,
+      "output_per_1m_usd": 0.2028,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
       "provider": "deepseek",
@@ -286,9 +296,19 @@
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
-      "input_per_1m_usd": 0.047,
+      "input_per_1m_usd": 0.0456,
       "output_per_1m_usd": 0.3,
       "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "name": "Qwen: Qwen3.5-9B",
+      "provider": "qwen",
+      "input_per_1m_usd": 0.1,
+      "output_per_1m_usd": 0.25,
+      "context_length": 262144,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -413,16 +433,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "qwen/qwen3.5-9b",
-      "name": "Qwen: Qwen3.5-9B",
-      "provider": "qwen",
-      "input_per_1m_usd": 0.17,
-      "output_per_1m_usd": 0.25,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "deepseek/deepseek-coder",
       "name": "deepseek/deepseek-coder",
       "provider": "deepseek",
@@ -459,16 +469,6 @@
       "input_per_1m_usd": 0.1,
       "output_per_1m_usd": 0.4,
       "context_length": 1047576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.14,
-      "output_per_1m_usd": 0.42,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -599,6 +599,16 @@
       "input_per_1m_usd": 0.1,
       "output_per_1m_usd": 0.625,
       "context_length": 400000,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -949,16 +959,6 @@
       "input_per_1m_usd": 0.2,
       "output_per_1m_usd": 1.25,
       "context_length": 400000,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.3,
-      "output_per_1m_usd": 1.2,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -6693,16 +6693,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "nvidia/nemotron-3.5-lightning",
-      "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "provider": "nvidia",
-      "input_per_1m_usd": 0.05,
-      "output_per_1m_usd": 0.2,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "dashscope/qwen-turbo-2024-11-01",
       "name": "dashscope/qwen-turbo-2024-11-01",
       "provider": "dashscope",
@@ -7011,6 +7001,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "provider": "nvidia",
+      "input_per_1m_usd": 0.07,
+      "output_per_1m_usd": 0.2,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "openrouter/deepseek/deepseek-v4-flash",
@@ -8526,7 +8526,7 @@
       "id": "~deepseek/deepseek-v4-flash-latest",
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "provider": "~deepseek",
-      "input_per_1m_usd": 0.047,
+      "input_per_1m_usd": 0.0456,
       "output_per_1m_usd": 0.3,
       "context_length": 1048576,
       "tier": "paid",
@@ -12233,16 +12233,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "z-ai/glm-4.7-flash",
-      "name": "Z.ai: GLM 4.7 Flash",
-      "provider": "z-ai",
-      "input_per_1m_usd": 0.0605,
-      "output_per_1m_usd": 0.4,
-      "context_length": 200000,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "cloudflare/@cf/zai-org/glm-4.7-flash",
       "name": "cloudflare/@cf/zai-org/glm-4.7-flash",
       "provider": "cloudflare",
@@ -12251,6 +12241,16 @@
       "context_length": 131072,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "z-ai/glm-4.7-flash",
+      "name": "Z.ai: GLM 4.7 Flash",
+      "provider": "z-ai",
+      "input_per_1m_usd": 0.0605,
+      "output_per_1m_usd": 0.4,
+      "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "bedrock/ap-south-1/mistral.voxtral-small-24b-2507",
@@ -13551,16 +13551,6 @@
       "context_length": 128000,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "xiaomi/mimo-v2.6-flash-mopd",
-      "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
-      "provider": "xiaomi",
-      "input_per_1m_usd": 0.15,
-      "output_per_1m_usd": 0.42,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "inferenceapis/deepseek-ai/DeepSeek-V3",
@@ -18443,16 +18433,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "z-ai/glm-4.5-air",
-      "name": "Z.ai: GLM 4.5 Air",
-      "provider": "z-ai",
-      "input_per_1m_usd": 0.13,
-      "output_per_1m_usd": 0.85,
-      "context_length": 131072,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "kyma/gpt-6-luna",
       "name": "kyma/gpt-6-luna",
       "provider": "kyma",
@@ -18721,6 +18701,16 @@
       "context_length": 131072,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "z-ai/glm-4.5-air",
+      "name": "Z.ai: GLM 4.5 Air",
+      "provider": "z-ai",
+      "input_per_1m_usd": 0.14,
+      "output_per_1m_usd": 0.86,
+      "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "inception/mercury-2",
@@ -21511,6 +21501,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash-mopd",
+      "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+      "provider": "xiaomi",
+      "input_per_1m_usd": 0.5,
+      "output_per_1m_usd": 1.0,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "zerogpu/deepseek-v4.1-flash",
@@ -37473,8 +37473,28 @@
       "source": "LiteLLM"
     },
     {
+      "id": "xai/grok-4.6-latest",
+      "name": "xai/grok-4.6-latest",
+      "provider": "xai",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 6.0,
+      "context_length": 500000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
       "id": "xai/grok-4.7",
       "name": "xai/grok-4.7",
+      "provider": "xai",
+      "input_per_1m_usd": 2.0,
+      "output_per_1m_usd": 6.0,
+      "context_length": 500000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "xai/grok-4.7-latest",
+      "name": "xai/grok-4.7-latest",
       "provider": "xai",
       "input_per_1m_usd": 2.0,
       "output_per_1m_usd": 6.0,
