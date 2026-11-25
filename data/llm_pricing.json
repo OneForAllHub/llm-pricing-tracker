@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T00:44:37Z",
-  "total_tracked": 4780,
+  "updated_at": "2026-11-25T06:55:18Z",
+  "total_tracked": 4784,
   "models": [
     {
       "id": "google/lyria-3-clip-preview",
@@ -183,16 +183,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.03,
-      "output_per_1m_usd": 0.2,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "google/gemma-3-27b-it",
       "name": "Google: Gemma 3 27B",
       "provider": "google",
@@ -293,16 +283,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "provider": "google",
-      "input_per_1m_usd": 0.0765,
-      "output_per_1m_usd": 0.255,
-      "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "provider": "deepseek",
@@ -379,6 +359,16 @@
       "input_per_1m_usd": 0.05,
       "output_per_1m_usd": 0.33,
       "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "input_per_1m_usd": 0.09,
+      "output_per_1m_usd": 0.3,
+      "context_length": 262144,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -959,6 +949,16 @@
       "input_per_1m_usd": 0.2,
       "output_per_1m_usd": 1.25,
       "context_length": 400000,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.3,
+      "output_per_1m_usd": 1.2,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -6443,16 +6443,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "~deepseek/deepseek-flash-latest",
-      "name": "DeepSeek: DeepSeek Flash Latest",
-      "provider": "~deepseek",
-      "input_per_1m_usd": 0.03,
-      "output_per_1m_usd": 0.2,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "inferenceapis/gpt-oss-20b",
       "name": "inferenceapis/gpt-oss-20b",
       "provider": "inferenceapis",
@@ -9391,16 +9381,6 @@
       "context_length": 32000,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "minimax/minimax-m3.1-flash",
-      "name": "MiniMax: MiniMax M3.1 Flash",
-      "provider": "minimax",
-      "input_per_1m_usd": 0.075,
-      "output_per_1m_usd": 0.3,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "oci/google.gemini-2.5-flash-lite",
@@ -13143,6 +13123,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "~deepseek/deepseek-flash-latest",
+      "name": "DeepSeek: DeepSeek Flash Latest",
+      "provider": "~deepseek",
+      "input_per_1m_usd": 0.036,
+      "output_per_1m_usd": 0.5,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "aihubmix/gemma-4-26b-a4b-it",
       "name": "aihubmix/gemma-4-26b-a4b-it",
       "provider": "aihubmix",
@@ -15701,6 +15691,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "provider": "minimax",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/MiniMaxAI/MiniMax-M3.1-Flash",
@@ -21596,6 +21596,26 @@
       "id": "deepseek-v4-flash-vision-exp",
       "name": "deepseek-v4-flash-vision-exp",
       "provider": "deepseek",
+      "input_per_1m_usd": 0.3,
+      "output_per_1m_usd": 1.2,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "huawei_maas/deepseek-v4.1-flash",
+      "name": "huawei_maas/deepseek-v4.1-flash",
+      "provider": "huawei_maas",
+      "input_per_1m_usd": 0.3,
+      "output_per_1m_usd": 1.2,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "huawei_maas/deepseek-v4.1-flash-1017",
+      "name": "huawei_maas/deepseek-v4.1-flash-1017",
+      "provider": "huawei_maas",
       "input_per_1m_usd": 0.3,
       "output_per_1m_usd": 1.2,
       "context_length": 1000000,
@@ -35489,6 +35509,26 @@
       "input_per_1m_usd": 1.4,
       "output_per_1m_usd": 4.4,
       "context_length": 1048566,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "huawei_maas/glm-5.2",
+      "name": "huawei_maas/glm-5.2",
+      "provider": "huawei_maas",
+      "input_per_1m_usd": 1.4,
+      "output_per_1m_usd": 4.4,
+      "context_length": 1000000,
+      "tier": "paid",
+      "source": "LiteLLM"
+    },
+    {
+      "id": "huawei_maas/glm-5.3",
+      "name": "huawei_maas/glm-5.3",
+      "provider": "huawei_maas",
+      "input_per_1m_usd": 1.4,
+      "output_per_1m_usd": 4.4,
+      "context_length": 1000000,
       "tier": "paid",
       "source": "LiteLLM"
     },
