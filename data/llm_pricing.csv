@@ -20,6 +20,7 @@ mistralai/ministral-3b-2512,Mistral: Ministral 3 3B 2512,mistralai,0.1,0.1,13107
 openai/gpt-5-nano:batch,OpenAI: GPT-5 Nano (batch),openai,0.025,0.2,400000,paid,OpenRouter
 google/gemma-3-27b-it,Google: Gemma 3 27B,google,0.08,0.16,131072,paid,OpenRouter
 openai/gpt-4.1-nano:batch,OpenAI: GPT-4.1 Nano (batch),openai,0.05,0.2,1047576,paid,OpenRouter
+deepseek/deepseek-v4.1-flash,DeepSeek: DeepSeek V4.1 Flash,deepseek,0.0507,0.2028,1048576,paid,OpenRouter
 deepseek/deepseek-v4-flash,DeepSeek: DeepSeek V4 Flash 0423,deepseek,0.09,0.18,1048576,paid,OpenRouter
 mistralai/mistral-small-3.2-24b-instruct,Mistral: Mistral Small 3.2 24B,mistralai,0.075,0.2,256000,paid,OpenRouter
 openai/gpt-6-luna-pro:batch,OpenAI: GPT-6 Luna Pro (batch),openai,0.05,0.25,1050000,paid,OpenRouter
@@ -28,7 +29,7 @@ anthropic/claude-haiku-5.5:batch,Anthropic: Claude Haiku 5.5 (batch),anthropic,0
 mistralai/ministral-8b-2512,Mistral: Ministral 3 8B 2512,mistralai,0.15,0.15,262144,paid,OpenRouter
 openai/gpt-oss-120b,OpenAI: gpt-oss-120b,openai,0.05,0.25,131072,paid,OpenRouter
 qwen/qwen3.5-flash-02-23,Qwen: Qwen3.5-Flash,qwen,0.065,0.26,1000000,paid,OpenRouter
-deepseek/deepseek-v4-flash-0731,DeepSeek: DeepSeek V4 Flash 0731,deepseek,0.047,0.3,1048576,paid,OpenRouter
+deepseek/deepseek-v4-flash-0731,DeepSeek: DeepSeek V4 Flash 0731,deepseek,0.0456,0.3,1048576,paid,OpenRouter
 qwen/qwen3.5-9b,Qwen: Qwen3.5-9B,qwen,0.1,0.25,262144,paid,OpenRouter
 qwen/qwen3-coder-30b-a3b-instruct,Qwen: Qwen3 Coder 30B A3B Instruct,qwen,0.07,0.28,262144,paid,OpenRouter
 meta-llama/llama-guard-4-12b,Meta: Llama Guard 4 12B,meta-llama,0.18,0.18,163840,paid,OpenRouter
@@ -47,7 +48,6 @@ deepseek/deepseek-coder,deepseek/deepseek-coder,deepseek,0.14,0.28,128000,paid,L
 openai/gpt-5-nano,OpenAI: GPT-5 Nano,openai,0.05,0.4,400000,paid,OpenRouter
 google/gemini-2.5-flash-lite,Google: Gemini 2.5 Flash Lite,google,0.1,0.4,1048576,paid,OpenRouter
 openai/gpt-4.1-nano,OpenAI: GPT-4.1 Nano,openai,0.1,0.4,1047576,paid,OpenRouter
-deepseek/deepseek-v4.1-flash,DeepSeek: DeepSeek V4.1 Flash,deepseek,0.14,0.42,1048576,paid,OpenRouter
 openai/gpt-6-luna,OpenAI: GPT-6 Luna,openai,0.1,0.5,1050000,paid,OpenRouter
 openai/gpt-6-luna-pro,OpenAI: GPT-6 Luna Pro,openai,0.1,0.5,1050000,paid,OpenRouter
 anthropic/claude-haiku-5.5,Anthropic: Claude Haiku 5.5,anthropic,0.1,0.5,1000000,paid,OpenRouter
@@ -62,6 +62,7 @@ openai/gpt-5.6-luna-pro:batch,OpenAI: GPT-5.6 Luna Pro (batch),openai,0.1,0.6,10
 openai/gpt-5.6-luna:batch,OpenAI: GPT-5.6 Luna (batch),openai,0.1,0.6,1050000,paid,OpenRouter
 deepseek/deepseek-reasoner,deepseek/deepseek-reasoner,deepseek,0.28,0.42,131072,paid,LiteLLM
 openai/gpt-5.4-nano:batch,OpenAI: GPT-5.4 Nano (batch),openai,0.1,0.625,400000,paid,OpenRouter
+deepseek/deepseek-v4.1-flash-1017,DeepSeek: DeepSeek V4.1 Flash 1017,deepseek,0.15,0.6,1048576,paid,OpenRouter
 mistralai/mistral-small-2603,Mistral: Mistral Small 4,mistralai,0.15,0.6,262144,paid,OpenRouter
 qwen/qwen3-vl-30b-a3b-instruct,Qwen: Qwen3 VL 30B A3B Instruct,qwen,0.15,0.6,262144,paid,OpenRouter
 openai/gpt-4o-mini,OpenAI: GPT-4o-mini,openai,0.15,0.6,128000,paid,OpenRouter
@@ -99,7 +100,6 @@ openai/gpt-5.6-luna-pro,OpenAI: GPT-5.6 Luna Pro,openai,0.2,1.2,1050000,paid,Ope
 google/gemini-3.5-flash-lite:batch,Google: Gemini 3.5 Flash Lite (batch),google,0.15,1.25,1048576,paid,OpenRouter
 meta-llama/llama-3.1-70b-instruct,Meta: Llama 3.1 70B Instruct,meta-llama,0.72,0.72,131072,paid,OpenRouter
 openai/gpt-5.4-nano,OpenAI: GPT-5.4 Nano,openai,0.2,1.25,400000,paid,OpenRouter
-deepseek/deepseek-v4.1-flash-1017,DeepSeek: DeepSeek V4.1 Flash 1017,deepseek,0.3,1.2,1048576,paid,OpenRouter
 deepseek/deepseek-flash,deepseek/deepseek-flash,deepseek,0.3,1.2,1000000,paid,LiteLLM
 qwen/qwen3.7-plus,Qwen: Qwen3.7 Plus,qwen,0.32,1.28,1000000,paid,OpenRouter
 qwen/qwen-2.5-coder-32b-instruct,Qwen2.5 Coder 32B Instruct,qwen,0.66,1.0,32768,paid,OpenRouter
@@ -122,7 +122,7 @@ openai/gpt-5-mini,OpenAI: GPT-5 Mini,openai,0.25,2.0,400000,paid,OpenRouter
 openai/gpt-5.1-codex-mini,OpenAI: GPT-5.1-Codex-Mini,openai,0.25,2.0,400000,paid,OpenRouter
 qwen/qwen3.6-plus,Qwen: Qwen3.6 Plus,qwen,0.325,1.95,1000000,paid,OpenRouter
 qwen/qwen3.5-122b-a10b,Qwen: Qwen3.5-122B-A10B,qwen,0.26,2.08,262144,paid,OpenRouter
-deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423,deepseek,0.888188,1.5082,1048576,paid,OpenRouter
+deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423,deepseek,0.87725,1.5082,1048576,paid,OpenRouter
 mistralai/devstral-2512,Mistral: Devstral 2 2512,mistralai,0.4,2.0,262144,paid,OpenRouter
 openai/gpt-5.4-mini:batch,OpenAI: GPT-5.4 Mini (batch),openai,0.375,2.25,400000,paid,OpenRouter
 deepseek/deepseek-r1,deepseek/deepseek-r1,deepseek,0.55,2.19,65536,paid,LiteLLM
@@ -186,7 +186,7 @@ openai/gpt-5.6-terra:batch,OpenAI: GPT-5.6 Terra (batch),openai,1.0,6.0,1050000,
 google/gemini-3.1-pro-preview:batch,Google: Gemini 3.1 Pro Preview (batch),google,1.0,6.0,1048576,paid,OpenRouter
 openai/gpt-3.5-turbo-16k,OpenAI: GPT-3.5 Turbo 16k,openai,3.0,4.0,16385,paid,OpenRouter
 openai/gpt-5.2:batch,OpenAI: GPT-5.2 (batch),openai,0.875,7.0,400000,paid,OpenRouter
-qwen/qwen3.8-2.4t-a95b,Qwen: Qwen3.8 2.4T A95B,qwen,2.0,6.0,1048576,paid,OpenRouter
+qwen/qwen3.8-2.4t-a95b,Qwen: Qwen3.8 2.4T A95B,qwen,2.0,6.0,1000000,paid,OpenRouter
 qwen/qwen3.8-max-0902,Qwen: Qwen3.8 Max (0902),qwen,2.0,6.0,1000000,paid,OpenRouter
 x-ai/grok-4.5,SpaceXSI: Grok 4.5,x-ai,2.0,6.0,500000,paid,OpenRouter
 x-ai/grok-4.6,SpaceXSI: Grok 4.6,x-ai,2.0,6.0,500000,paid,OpenRouter
@@ -294,7 +294,6 @@ openai/gpt-5.5-pro,OpenAI: GPT-5.5 Pro,openai,30.0,180.0,1050000,paid,OpenRouter
 gemini/gemini-exp-1206,gemini/gemini-exp-1206,gemini,0.0,0.0,2097152,free,LiteLLM
 gemini/gemini-exp-1114,gemini/gemini-exp-1114,gemini,0.0,0.0,1048576,free,LiteLLM
 gemini/lyria-realtime-exp,gemini/lyria-realtime-exp,gemini,0.0,0.0,1048576,free,LiteLLM
-inclusionai/ling-3.2-flash:free,inclusionAI: Ling 3.2 Flash (free),inclusionai,0.0,0.0,1048576,free,OpenRouter
 opencode_go/beam-free,opencode_go/beam-free,opencode_go,0.0,0.0,1048576,free,LiteLLM
 particle-ai/particle-1:free,Particle AI: Particle-1 (free),particle-ai,0.0,0.0,1048576,free,OpenRouter
 baidu/ernie-5.5-flash-preview:free,Baidu: ERNIE-5.5-Flash-Preview (free),baidu,0.0,0.0,1024000,free,OpenRouter
@@ -737,6 +736,7 @@ bedrock_mantle/ap-southeast-2/nvidia.nemotron-nano-9b-v2,bedrock_mantle/ap-south
 inclusionai/ling-3.1-flash,inclusionAI: Ling 3.1 Flash,inclusionai,0.075,0.225,1048576,paid,OpenRouter
 nebius/nvidia/Nemotron-3_5-Lightning,nebius/nvidia/Nemotron-3_5-Lightning,nebius,0.06,0.24,1048576,paid,LiteLLM
 refuseless/minimax-m3.1-flash,refuseless/minimax-m3.1-flash,refuseless,0.05,0.25,1048576,paid,LiteLLM
+thinkingmachines/inkling-2-mini,Thinking Machines: Inkling 2 Mini,thinkingmachines,0.06,0.24,1048576,paid,OpenRouter
 amazon-nova/nova-lite-v1,amazon-nova/nova-lite-v1,amazon_nova,0.06,0.24,300000,paid,LiteLLM
 amazon.nova-lite-v1:0,amazon.nova-lite-v1:0,bedrock_converse,0.06,0.24,300000,paid,LiteLLM
 amazon/nova-lite-v1,Amazon: Nova Lite 1.0,amazon,0.06,0.24,300000,paid,OpenRouter
@@ -857,7 +857,7 @@ bedrock_mantle/eu-west-1/nvidia.nemotron-nano-9b-v2,bedrock_mantle/eu-west-1/nvi
 resetdata/qwen/qwen3-coder-30b-a3b-instruct,resetdata/qwen/qwen3-coder-30b-a3b-instruct,resetdata,0.07061,0.2723,262144,paid,LiteLLM
 bedrock/eu-west-1/amazon.nova-lite-v1:0,bedrock/eu-west-1/amazon.nova-lite-v1:0,bedrock_converse,0.069,0.276,300000,paid,LiteLLM
 bedrock/eu-west-1/eu.amazon.nova-lite-v1:0,bedrock/eu-west-1/eu.amazon.nova-lite-v1:0,bedrock_converse,0.069,0.276,300000,paid,LiteLLM
-~deepseek/deepseek-v4-flash-latest,DeepSeek: DeepSeek V4 Flash Latest,~deepseek,0.047,0.3,1048576,paid,OpenRouter
+~deepseek/deepseek-v4-flash-latest,DeepSeek: DeepSeek V4 Flash Latest,~deepseek,0.0456,0.3,1048576,paid,OpenRouter
 bedrock/us-gov-east-1/nvidia.nemotron-nano-9b-v2,bedrock/us-gov-east-1/nvidia.nemotron-nano-9b-v2,bedrock,0.072,0.276,128000,paid,LiteLLM
 bedrock/us-gov-west-1/nvidia.nemotron-nano-9b-v2,bedrock/us-gov-west-1/nvidia.nemotron-nano-9b-v2,bedrock,0.072,0.276,128000,paid,LiteLLM
 bedrock_mantle/ap-southeast-3/nvidia.nemotron-nano-9b-v2,bedrock_mantle/ap-southeast-3/nvidia.nemotron-nano-9b-v2,bedrock_mantle,0.072,0.276,128000,paid,LiteLLM
@@ -944,7 +944,6 @@ databricks/databricks-gpt-oss-20b,databricks/databricks-gpt-oss-20b,databricks,0
 sarvam/sarvam-105b,sarvam/sarvam-105b,sarvam,0.106383,0.265957,128000,paid,LiteLLM
 sarvam/sarvam-105b-conversations,sarvam/sarvam-105b-conversations,sarvam,0.106383,0.265957,32000,paid,LiteLLM
 oci/google.gemini-2.5-flash-lite,oci/google.gemini-2.5-flash-lite,oci,0.075,0.3,1048576,paid,LiteLLM
-thinkingmachines/inkling-2-mini,Thinking Machines: Inkling 2 Mini,thinkingmachines,0.075,0.3,1048576,paid,OpenRouter
 bedrock/il-central-1/amazon.nova-lite-v1:0,bedrock/il-central-1/amazon.nova-lite-v1:0,bedrock_converse,0.075,0.3,300000,paid,LiteLLM
 bedrock/il-central-1/apac.amazon.nova-lite-v1:0,bedrock/il-central-1/apac.amazon.nova-lite-v1:0,bedrock_converse,0.075,0.3,300000,paid,LiteLLM
 azure_ai/Phi-4-mini-instruct,azure_ai/Phi-4-mini-instruct,azure_ai,0.075,0.3,131072,paid,LiteLLM
@@ -1949,6 +1948,7 @@ bedrock/eu-west-2/meta.llama3-8b-instruct-v1:0,bedrock/eu-west-2/meta.llama3-8b-
 wandb/MiniMaxAI/MiniMax-M3,wandb/MiniMaxAI/MiniMax-M3,wandb,0.23,0.96,262000,paid,LiteLLM
 deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct,deepinfra/Qwen/Qwen3-Next-80B-A3B-Instruct,deepinfra,0.09,1.1,262144,paid,LiteLLM
 gmi/MiniMaxAI/MiniMax-M3,gmi/MiniMaxAI/MiniMax-M3,gmi,0.24,0.96,1048576,paid,LiteLLM
+inclusionai/ling-3.2-flash,inclusionAI: Ling 3.2 Flash,inclusionai,0.3,0.9,1048576,paid,OpenRouter
 nebius/nvidia/Nemotron-3.5-Super-VL,nebius/nvidia/Nemotron-3.5-Super-VL,nebius,0.3,0.9,1048576,paid,LiteLLM
 nebius/nvidia/nemotron-3-super-120b-a12b,nebius/nvidia/nemotron-3-super-120b-a12b,nebius,0.3,0.9,262144,paid,LiteLLM
 azure_ai/Codestral-2501,azure_ai/Codestral-2501,azure_ai,0.3,0.9,256000,paid,LiteLLM
