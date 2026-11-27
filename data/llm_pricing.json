@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T00:49:07Z",
+  "updated_at": "2026-11-27T06:56:48Z",
   "total_tracked": 4795,
   "models": [
     {
@@ -193,6 +193,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "google/gemma-3-27b-it",
+      "name": "Google: Gemma 3 27B",
+      "provider": "google",
+      "input_per_1m_usd": 0.08,
+      "output_per_1m_usd": 0.16,
+      "context_length": 131072,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "openai/gpt-4.1-nano:batch",
       "name": "OpenAI: GPT-4.1 Nano (batch)",
       "provider": "openai",
@@ -279,16 +289,6 @@
       "input_per_1m_usd": 0.065,
       "output_per_1m_usd": 0.26,
       "context_length": 1000000,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "provider": "google",
-      "input_per_1m_usd": 0.0765,
-      "output_per_1m_usd": 0.255,
-      "context_length": 262144,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -393,6 +393,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "input_per_1m_usd": 0.09,
+      "output_per_1m_usd": 0.3,
+      "context_length": 262144,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "meta-llama/llama-4-scout",
       "name": "Meta: Llama 4 Scout",
       "provider": "meta-llama",
@@ -469,16 +479,6 @@
       "input_per_1m_usd": 0.1,
       "output_per_1m_usd": 0.4,
       "context_length": 1047576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "google/gemma-3-27b-it",
-      "name": "Google: Gemma 3 27B",
-      "provider": "google",
-      "input_per_1m_usd": 0.08,
-      "output_per_1m_usd": 0.45,
-      "context_length": 131072,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -633,16 +633,6 @@
       "source": "OpenRouter"
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash-1017",
-      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.15,
-      "output_per_1m_usd": 0.6,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "mistralai/mistral-small-2603",
       "name": "Mistral: Mistral Small 4",
       "provider": "mistralai",
@@ -699,6 +689,16 @@
       "input_per_1m_usd": 0.2,
       "output_per_1m_usd": 0.6,
       "context_length": 32768,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.2156,
+      "output_per_1m_usd": 0.6468,
+      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -1003,6 +1003,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.3,
+      "output_per_1m_usd": 1.2,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "deepseek/deepseek-flash",
       "name": "deepseek/deepseek-flash",
       "provider": "deepseek",
@@ -1069,16 +1079,6 @@
       "input_per_1m_usd": 0.25,
       "output_per_1m_usd": 1.5,
       "context_length": 65536,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.44,
-      "output_per_1m_usd": 1.32,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -1233,22 +1233,22 @@
       "source": "OpenRouter"
     },
     {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.888188,
+      "output_per_1m_usd": 1.5082,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "mistralai/devstral-2512",
       "name": "Mistral: Devstral 2 2512",
       "provider": "mistralai",
       "input_per_1m_usd": 0.4,
       "output_per_1m_usd": 2.0,
       "context_length": 262144,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.888188,
-      "output_per_1m_usd": 1.5887,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -1596,7 +1596,7 @@
       "id": "deepseek/deepseek-v4-pro-0813",
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "provider": "deepseek",
-      "input_per_1m_usd": 0.25,
+      "input_per_1m_usd": 0.0999,
       "output_per_1m_usd": 5.0,
       "context_length": 1048576,
       "tier": "paid",
@@ -9443,16 +9443,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "minimax/minimax-m3.1-flash",
-      "name": "MiniMax: MiniMax M3.1 Flash",
-      "provider": "minimax",
-      "input_per_1m_usd": 0.075,
-      "output_per_1m_usd": 0.3,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "oci/google.gemini-2.5-flash-lite",
       "name": "oci/google.gemini-2.5-flash-lite",
       "provider": "oci",
@@ -15751,6 +15741,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "provider": "minimax",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/MiniMaxAI/MiniMax-M3.1-Flash",
@@ -33253,16 +33253,6 @@
       "source": "LiteLLM"
     },
     {
-      "id": "~deepseek/deepseek-pro-latest",
-      "name": "DeepSeek: DeepSeek Pro Latest",
-      "provider": "~deepseek",
-      "input_per_1m_usd": 0.111,
-      "output_per_1m_usd": 4.44,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
       "id": "bedrock/eu-south-1/global.amazon.nova-2-lite-v1:0",
       "name": "bedrock/eu-south-1/global.amazon.nova-2-lite-v1:0",
       "provider": "bedrock_converse",
@@ -34301,6 +34291,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "~deepseek/deepseek-pro-latest",
+      "name": "DeepSeek: DeepSeek Pro Latest",
+      "provider": "~deepseek",
+      "input_per_1m_usd": 0.0999,
+      "output_per_1m_usd": 5.0,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "bigmodel/glm-5.3",

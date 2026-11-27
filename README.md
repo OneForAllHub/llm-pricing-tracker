@@ -1,6 +1,6 @@
 # LLM API Pricing & Context Tracker 💰📊
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--27T00%3A49%3A07Z-brightgreen?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--11--27T06%3A56%3A48Z-brightgreen?style=flat-square)
 ![Tracked Models](https://img.shields.io/badge/Tracked%20Models-4795-blue?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
@@ -28,6 +28,7 @@
 | `google/gemma-3-12b-it` | google | $0.05 | $0.15 | 131,072 | OpenRouter |
 | `mistralai/ministral-3b-2512` | mistralai | $0.10 | $0.10 | 131,072 | OpenRouter |
 | `openai/gpt-5-nano:batch` | openai | $0.03 | $0.20 | 400,000 | OpenRouter |
+| `google/gemma-3-27b-it` | google | $0.08 | $0.16 | 131,072 | OpenRouter |
 | `openai/gpt-4.1-nano:batch` | openai | $0.05 | $0.20 | 1,047,576 | OpenRouter |
 | `deepseek/deepseek-v4-flash` | deepseek | $0.09 | $0.18 | 1,048,576 | OpenRouter |
 | `mistralai/mistral-small-3.2-24b-instruct` | mistralai | $0.07 | $0.20 | 256,000 | OpenRouter |
@@ -37,7 +38,6 @@
 | `mistralai/ministral-8b-2512` | mistralai | $0.15 | $0.15 | 262,144 | OpenRouter |
 | `openai/gpt-oss-120b` | openai | $0.05 | $0.25 | 131,072 | OpenRouter |
 | `qwen/qwen3.5-flash-02-23` | qwen | $0.07 | $0.26 | 1,000,000 | OpenRouter |
-| `google/gemma-4-26b-a4b-it` | google | $0.08 | $0.26 | 262,144 | OpenRouter |
 | `deepseek/deepseek-v4-flash-0731` | deepseek | $0.05 | $0.30 | 1,048,576 | OpenRouter |
 | `qwen/qwen3.5-9b` | qwen | $0.10 | $0.25 | 262,144 | OpenRouter |
 | `qwen/qwen3-coder-30b-a3b-instruct` | qwen | $0.07 | $0.28 | 262,144 | OpenRouter |
@@ -48,11 +48,11 @@
 | `openai/gpt-oss-safeguard-20b` | openai | $0.07 | $0.30 | 131,072 | OpenRouter |
 | `openai/gpt-4o-mini:batch` | openai | $0.07 | $0.30 | 128,000 | OpenRouter |
 | `meta-llama/llama-3.2-3b-instruct` | meta-llama | $0.05 | $0.33 | 131,072 | OpenRouter |
+| `google/gemma-4-26b-a4b-it` | google | $0.09 | $0.30 | 262,144 | OpenRouter |
 | `meta-llama/llama-4-scout` | meta-llama | $0.10 | $0.30 | 1,310,720 | OpenRouter |
 | `mistralai/ministral-14b-2512` | mistralai | $0.20 | $0.20 | 262,144 | OpenRouter |
 | `qwen/qwen3-30b-a3b-instruct-2507` | qwen | $0.10 | $0.30 | 262,144 | OpenRouter |
 | `mistralai/voxtral-small-24b-2507` | mistralai | $0.10 | $0.30 | 32,768 | OpenRouter |
-| `deepseek/deepseek-coder` | deepseek | $0.14 | $0.28 | 128,000 | LiteLLM |
 
 ## Cheapest Paid Models (USD per 1M Tokens)
 
