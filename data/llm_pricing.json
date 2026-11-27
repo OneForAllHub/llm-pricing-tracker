@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T17:05:28Z",
+  "updated_at": "2026-11-27T18:41:06Z",
   "total_tracked": 4795,
   "models": [
     {
@@ -1166,8 +1166,8 @@
       "id": "deepseek/deepseek-v4-pro",
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "provider": "deepseek",
-      "input_per_1m_usd": 0.73529,
-      "output_per_1m_usd": 1.5007,
+      "input_per_1m_usd": 0.69473,
+      "output_per_1m_usd": 1.544,
       "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"

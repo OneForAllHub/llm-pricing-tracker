@@ -115,7 +115,7 @@ qwen/qwen3.8-27b,Qwen: Qwen3.8 27B,qwen,0.06,1.96,1024000,paid,OpenRouter
 qwen/qwen3.5-plus-20260420,Qwen: Qwen3.5 Plus 2026-04-20,qwen,0.3,1.8,1000000,paid,OpenRouter
 qwen/qwen3-vl-235b-a22b-instruct,Qwen: Qwen3 VL 235B A22B Instruct,qwen,0.21,1.9,262144,paid,OpenRouter
 qwen/qwen3.8-27b:batch,Qwen: Qwen3.8 27B (batch),qwen,0.16,2.0,262144,paid,OpenRouter
-deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423,deepseek,0.73529,1.5007,1048576,paid,OpenRouter
+deepseek/deepseek-v4-pro,DeepSeek: DeepSeek V4 Pro 0423,deepseek,0.69473,1.544,1048576,paid,OpenRouter
 google/gemini-3.6-flash:batch,Google: Gemini 3.6 Flash (batch),google,0.375,1.875,1048576,paid,OpenRouter
 google/gemini-3.7-flash:batch,Google: Gemini 3.7 Flash (batch),google,0.375,1.875,1048576,paid,OpenRouter
 google/gemini-3.8-flash:batch,Google: Gemini 3.8 Flash (batch),google,0.375,1.875,1048576,paid,OpenRouter
