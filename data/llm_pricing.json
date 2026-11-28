@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T00:46:24Z",
+  "updated_at": "2026-11-28T06:51:40Z",
   "total_tracked": 4797,
   "models": [
     {
@@ -1103,6 +1103,16 @@
       "source": "OpenRouter"
     },
     {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "provider": "deepseek",
+      "input_per_1m_usd": 0.29927,
+      "output_per_1m_usd": 1.5358,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "openai/gpt-4.1-mini",
       "name": "OpenAI: GPT-4.1 Mini",
       "provider": "openai",
@@ -1129,16 +1139,6 @@
       "input_per_1m_usd": 0.06,
       "output_per_1m_usd": 1.96,
       "context_length": 1024000,
-      "tier": "paid",
-      "source": "OpenRouter"
-    },
-    {
-      "id": "deepseek/deepseek-v4-pro",
-      "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "provider": "deepseek",
-      "input_per_1m_usd": 0.51221,
-      "output_per_1m_usd": 1.5651,
-      "context_length": 1048576,
       "tier": "paid",
       "source": "OpenRouter"
     },
@@ -6733,6 +6733,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "nvidia/nemotron-3.5-lightning",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "provider": "nvidia",
+      "input_per_1m_usd": 0.05,
+      "output_per_1m_usd": 0.2,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "dashscope/qwen-turbo-2024-11-01",
       "name": "dashscope/qwen-turbo-2024-11-01",
       "provider": "dashscope",
@@ -7041,16 +7051,6 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-lightning",
-      "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "provider": "nvidia",
-      "input_per_1m_usd": 0.07,
-      "output_per_1m_usd": 0.2,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "openrouter/deepseek/deepseek-v4-flash",
@@ -9431,16 +9431,6 @@
       "context_length": 32000,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "minimax/minimax-m3.1-flash",
-      "name": "MiniMax: MiniMax M3.1 Flash",
-      "provider": "minimax",
-      "input_per_1m_usd": 0.075,
-      "output_per_1m_usd": 0.3,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "oci/google.gemini-2.5-flash-lite",
@@ -15741,6 +15731,16 @@
       "context_length": 1048576,
       "tier": "paid",
       "source": "LiteLLM"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax: MiniMax M3.1 Flash",
+      "provider": "minimax",
+      "input_per_1m_usd": 0.15,
+      "output_per_1m_usd": 0.6,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
     },
     {
       "id": "nebius/MiniMaxAI/MiniMax-M3.1-Flash",
@@ -39053,6 +39053,16 @@
       "source": "LiteLLM"
     },
     {
+      "id": "~moonshotai/kimi-latest",
+      "name": "MoonshotAI: Kimi Latest",
+      "provider": "~moonshotai",
+      "input_per_1m_usd": 0.1824,
+      "output_per_1m_usd": 10.6722,
+      "context_length": 1048576,
+      "tier": "paid",
+      "source": "OpenRouter"
+    },
+    {
       "id": "bedrock/eu-central-1/anthropic.claude-instant-v1",
       "name": "bedrock/eu-central-1/anthropic.claude-instant-v1",
       "provider": "bedrock",
@@ -39181,16 +39191,6 @@
       "context_length": 128000,
       "tier": "paid",
       "source": "LiteLLM"
-    },
-    {
-      "id": "~moonshotai/kimi-latest",
-      "name": "MoonshotAI: Kimi Latest",
-      "provider": "~moonshotai",
-      "input_per_1m_usd": 0.1824,
-      "output_per_1m_usd": 11.0055,
-      "context_length": 1048576,
-      "tier": "paid",
-      "source": "OpenRouter"
     },
     {
       "id": "databricks/databricks-gemini-2-5-pro",
